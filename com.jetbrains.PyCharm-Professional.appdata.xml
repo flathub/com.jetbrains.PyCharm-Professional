@@ -18,6 +18,16 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
+		<release version="2019.3" date="2019-12-01">
+			<description>
+				<ul>
+					<li>Interactive Widgets for Jupyter Notebooks. A picture is worth a thousand words, but making it interactive really makes your data come to life. Interactive widgets are now supported in PyCharm.</li>
+					<li>MongoDB Support. One of the most commonly used NoSQL databases is now supported by the database tools included in PyCharm Professional Edition.</li>
+					<li>We’ve completed support for all Python 3.8 features: you can now expect PyCharm-grade code completion when you use TypedDicts. We’ve also added support for Literal type annotations, and more.</li>
+					<li>Why is it that when you get a CSV file, it always has a very long name which is very prone to typos? We’ve now added a small convenience feature that’ll save you: completion for filenames in methods like open and Panda’s read_csv.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2019.2.3" date="2019-09-25" />
 		<release version="2019.2" date="2019-07-24">
 			<description>
