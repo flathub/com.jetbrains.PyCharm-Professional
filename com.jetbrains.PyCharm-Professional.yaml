@@ -70,10 +70,10 @@ modules:
       - install -Dm644 -t /app/share/icons/hicolor/scalable/apps com.jetbrains.PyCharm-Professional.svg
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2019.2.3.tar.gz
-        sha256: f6acada6cf0308ea21be3d1656b9a42f2584259c566c7d0f97c7267311a523a6
-        size: 482051405
-        filename: pycharm-professional-2019.2.3.tar.gz
+        url: https://download.jetbrains.com/python/pycharm-professional-2019.3.tar.gz
+        sha256: 38c5b82ad56646b8d31c50c7b06b9c0905a9571cc95a0a51af410d7c72ea3b0d
+        size: 503439093
+        filename: pycharm-professional.tar.gz
       - type: file
         path: com.jetbrains.PyCharm-Professional.appdata.xml
       - type: file
@@ -84,9 +84,9 @@ modules:
         dest-filename: apply_extra
         commands:
           - set -e
-          - tar -xf pycharm-professional-2019.2.3.tar.gz --strip-components 1
-          - rm -f pycharm-professional-2019.2.3.tar.gz
-          - python3 helpers/pydev/setup_cython.py build_ext --inplace
+          - tar -xf pycharm-professional.tar.gz --strip-components 1
+          - rm -f pycharm-professional.tar.gz
+          - python3 plugins/python/helpers/pydev/setup_cython.py build_ext --inplace
       - type: script
         dest-filename: pycharm
         commands:
