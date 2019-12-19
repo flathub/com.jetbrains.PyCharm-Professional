@@ -27,13 +27,14 @@ modules:
       - -DFREEGLUT_BUILD_DEMOS=OFF
     sources:
       - type: archive
-        url: "https://prdownloads.sourceforge.net/freeglut/freeglut-3.2.1.tar.gz"
+        url: https://prdownloads.sourceforge.net/freeglut/freeglut-3.2.1.tar.gz
         sha256: d4000e02102acaf259998c870e25214739d1f16f67f99cb35e4f46841399da68
 
   - name: python3-virtualenv
     buildsystem: simple
     build-commands:
-      - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} virtualenv
+      - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST}
+        virtualenv
     sources:
       - type: file
         url: https://files.pythonhosted.org/packages/e7/80/15d28e5a075fb02366ce97558120bb987868dab3600233ec7be032dc6d01/virtualenv-16.7.7.tar.gz
@@ -48,7 +49,8 @@ modules:
   - name: python3-pipenv
     buildsystem: simple
     build-commands:
-      - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} pipenv
+      - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST}
+        pipenv
     sources:
       - type: file
         url: https://files.pythonhosted.org/packages/13/b4/3ffa55f77161cff9a5220f162670f7c5eb00df52e00939e203f601b0f579/pipenv-2018.11.26-py3-none-any.whl
@@ -70,9 +72,9 @@ modules:
       - install -Dm644 -t /app/share/icons/hicolor/scalable/apps com.jetbrains.PyCharm-Professional.svg
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2019.3.tar.gz
-        sha256: 38c5b82ad56646b8d31c50c7b06b9c0905a9571cc95a0a51af410d7c72ea3b0d
-        size: 503439093
+        url: https://download.jetbrains.com/python/pycharm-professional-2019.3.1.tar.gz
+        sha256: fd7b34852298cb6b96a4aa571afb855c4f56d26827910544123a0657189751ae
+        size: 509724729
         x-checker-data:
           type: jetbrains
           code: PCP
