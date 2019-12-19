@@ -18,6 +18,7 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
+		<release version="2019.3.1" date="2019-12-19"/>
 		<release version="2019.3" date="2019-12-01">
 			<description>
 				<ul>
@@ -28,7 +29,7 @@
 				</ul>
 			</description>
 		</release>
-		<release version="2019.2.3" date="2019-09-25" />
+		<release version="2019.2.3" date="2019-09-25"/>
 		<release version="2019.2" date="2019-07-24">
 			<description>
 				<ul>
@@ -50,5 +51,5 @@
 			<image type="source">https://www.jetbrains.com/pycharm/img/screenshots/simpleLook@2x.jpg</image>
 		</screenshot>
 	</screenshots>
-	<content_rating type="oars-1.1" />
+	<content_rating type="oars-1.1"/>
 </component>
