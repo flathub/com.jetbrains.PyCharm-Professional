@@ -73,6 +73,9 @@ modules:
         url: https://download.jetbrains.com/python/pycharm-professional-2019.3.tar.gz
         sha256: 38c5b82ad56646b8d31c50c7b06b9c0905a9571cc95a0a51af410d7c72ea3b0d
         size: 503439093
+        x-checker-data:
+          type: jetbrains
+          code: PCP
         filename: pycharm-professional.tar.gz
       - type: file
         path: com.jetbrains.PyCharm-Professional.appdata.xml
