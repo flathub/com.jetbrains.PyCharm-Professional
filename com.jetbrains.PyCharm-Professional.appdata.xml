@@ -18,7 +18,16 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
-		<release version="2020.1" date="2020-04-08"/>
+		<release version="2020.1" date="2020-04-08">
+			<description>
+				<ul>
+					<li>Interactive Rebasing: Commits can get messy, which is why you need to be able to rebase your branch. Now, PyCharm allows you to do so visually and with unprecedented ease.</li>
+					<li>Smarter Debugging: PyCharm’s debugger now makes it easy to see what’s happening in the middle of a complex statement. When stepping in, the debugger will ask you exactly what part of the statement you want to investigate further.</li>
+					<li>JetBrains Mono: PyCharm helps you read your code by navigating your project effectively, and now also by presenting your code in a font designed specifically for it.</li>
+					<li>Django Template Imports: PyCharm Professional Edition makes life easy for web developers by offering code completion (and debugging) in Django templates. We’ve made a couple improvements on this front: auto import for custom tags and better completion.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2019.3.4" date="2020-03-18"/>
 		<release version="2019.3.3" date="2020-02-07"/>
 		<release version="2019.3.2" date="2020-01-22"/>
