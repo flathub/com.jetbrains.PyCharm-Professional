@@ -18,6 +18,7 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
+		<release version="2020.1.1" date="2020-05-07"/>
 		<release version="2020.1" date="2020-04-08">
 			<description>
 				<ul>
