@@ -18,6 +18,16 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
+		<release version="2020.2" date="2020-07-29">
+			<description>
+				<ul>
+					<li><strong>Full GitHub pull request support</strong>: You no longer need to switch between the browser and your IDE to manage anything in your GitHub Pull Request workflow.</li>
+					<li><strong>Smart in-editor exceptions preview</strong>: Don't spend time browsing your code after exceptions. PyCharm now automatically finds and displays it directly in your editor.</li>
+					<li><strong>In-place signature-change refactoring</strong>: Simply add, remove, or edit your method signature in-place and apply project-wide refactorings without going through pop-up dialogs.</li>
+					<li><strong>Support for Django configuration constants completion in settings.py</strong>: Stop typing the same Django configuration variables over and over again. Speed up your flow and let PyCharm autocomplete documented Django settings for you.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2020.1.4" date="2020-07-22"/>
 		<release version="2020.1.3" date="2020-07-08"/>
 		<release version="2020.1.2" date="2020-06-03"/>
