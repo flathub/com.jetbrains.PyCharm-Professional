@@ -18,7 +18,16 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
-		<release version="2020.3" date="2020-12-02"/>
+		<release version="2020.3" date="2020-12-02">
+			<description>
+				<ul>
+					<li><strong>Environment autoconfiguration for imported or cloned projects:</strong> If you are cloning or importing a project from the repo with a requirements.txt, setup.py, environment.yml, or pipfile inside it, PyCharm will set up a Python environment for you.</li>
+					<li><strong>Search Everywhere to find Git commits:</strong> Search Everywhere now also looks for your Git commits. Press Shift twice to open Search Everywhere and start searching. The search dialog can also now be used for performing basic math calculations.</li>
+					<li><strong>Create a React component from usage:</strong> Have an unresolved React component in your code? Place the caret at its location, press Alt+Enter,and select Create class / function component from the list. The IDE will create the relevant code construct for you.</li>
+					<li><strong>New Welcome screen for faster initial setup:</strong> The initial setup wizard has been redesigned to give you quick access to your projects and to allow you to quickly customize your IDE. Cultivate your knowledge of the IDE with a new Learn PyCharm section.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2020.2.5" date="2020-12-02"/>
 		<release version="2020.2.4" date="2020-11-27"/>
 		<release version="2020.2.3" date="2020-10-07"/>
