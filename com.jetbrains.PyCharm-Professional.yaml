@@ -72,9 +72,9 @@ modules:
       - install -Dm644 -t /app/share/icons/hicolor/scalable/apps com.jetbrains.PyCharm-Professional.svg
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2020.3.2.tar.gz
-        sha256: dcfdcc04f366d23de04481bfa1bae51ae5a54210abfb5676b16f1f0cc8466bb9
-        size: 607627043
+        url: https://download.jetbrains.com/python/pycharm-professional-2020.3.3.tar.gz
+        sha256: b526c73554a297b509565f0c218bce64f4f63072766d2ca9d4fb1a7efb0dfbfb
+        size: 607549193
         x-checker-data:
           type: jetbrains
           code: PCP
