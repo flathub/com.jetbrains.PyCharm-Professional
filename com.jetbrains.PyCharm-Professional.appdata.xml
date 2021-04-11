@@ -18,6 +18,18 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
+		<release version="2021.1" date="2021-04-07">
+			<description>
+				<ul>
+					<li>Faster indexing.</li>
+					<li>Enhanced WSL 2 support.</li>
+					<li>Code insight: Auto import on module member completion.</li>
+					<li>Tool window for Python packages.</li>
+					<li>Collaborative development tool: Code With Me.</li>
+					<li>Built-in HTML preview.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2020.3.5" date="2021-03-26"/>
 		<release version="2020.3.4" date="2021-03-17"/>
 		<release version="2020.3.3" date="2021-01-27"/>
