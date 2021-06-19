@@ -1,6 +1,6 @@
 app-id: com.jetbrains.PyCharm-Professional
 runtime: org.freedesktop.Sdk
-runtime-version: '19.08'
+runtime-version: '20.08'
 sdk: org.freedesktop.Sdk
 command: pycharm
 separate-locales: false
@@ -17,19 +17,6 @@ finish-args:
   - --device=all
   - --env=PYCHARM_JDK=${FLATPAK_DEST}/pycharm/jre64/
 modules:
-  - shared-modules/glew/glew.json
-  - shared-modules/glu/glu-9.json
-
-  - name: freeglut
-    buildsystem: cmake-ninja
-    config-opts:
-      - -DFREEGLUT_BUILD_STATIC_LIBS=OFF
-      - -DFREEGLUT_BUILD_DEMOS=OFF
-    sources:
-      - type: archive
-        url: https://prdownloads.sourceforge.net/freeglut/freeglut-3.2.1.tar.gz
-        sha256: d4000e02102acaf259998c870e25214739d1f16f67f99cb35e4f46841399da68
-
   - name: python3-virtualenv
     buildsystem: simple
     build-commands:
