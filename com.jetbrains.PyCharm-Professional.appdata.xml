@@ -18,6 +18,18 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
+		<release version="2021.2" date="2021-07-28">
+			<description>
+				<ul>
+					<li><strong>Python 3.10 support:</strong> for pattern matching and the new syntax for union types, you can now format, inspect, and use code completion for these language structures.</li>
+					<li><strong>HTML preview:</strong> reload pages in the browser on save.</li>
+					<li><strong>Collaborative development:</strong> Python Console in Code With Me for both guests and hosts.</li>
+					<li><strong>Tool window for Python packages:</strong> install packages from custom locations.</li>
+					<li>Code completion of fields and operators in the MongoDB console.</li>
+					<li><strong>Pre-commit checks:</strong> ability to run tests.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2021.1.3" date="2021-06-30"/>
 		<release version="2021.1.2" date="2021-06-02"/>
 		<release version="2021.1.1" date="2021-04-22"/>
