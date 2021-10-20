@@ -20,7 +20,8 @@ modules:
   - name: python3-virtualenv
     buildsystem: simple
     build-commands:
-      - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} "virtualenv"
+      - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST}
+        "virtualenv"
     sources:
       - type: file
         url: https://files.pythonhosted.org/packages/db/e2/c0ced9ccffb61432305665c22842ea120c0f649eec47ecf2a45c596707c4/setuptools-57.4.0.tar.gz
@@ -220,9 +221,9 @@ modules:
       - install -Dm644 -t /app/share/icons/hicolor/scalable/apps com.jetbrains.PyCharm-Professional.svg
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2021.2.2.tar.gz
-        sha256: a6dc59213bdd728b628f14179e3da271eea2344cced8ee50be71582392abf555
-        size: 624776245
+        url: https://download.jetbrains.com/python/pycharm-professional-2021.2.3.tar.gz
+        sha256: 2763564a793797f60ea36e5ea2fafc5ef8f44c1bc4964eb6061862999e12e77e
+        size: 625048120
         x-checker-data:
           type: jetbrains
           code: PCP
