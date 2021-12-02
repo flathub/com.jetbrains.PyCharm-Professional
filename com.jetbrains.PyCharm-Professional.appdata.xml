@@ -18,6 +18,16 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
+		<release version="2021.3" date="2021-12-01">
+			<description>
+				<ul>
+					<li><strong>Poetry support:</strong> In response to a very popular request in our issue tracker, we’ve added Poetry support to PyCharm, including code completion for your pyproject.toml file out of the box!</li>
+					<li><strong>New FastAPI project type:</strong> When creating a new project, select the FastAPI project type to have PyCharm Pro import dependencies and create run/debug configurations for you.</li>
+					<li><strong>New Jupyter notebook experience:</strong> We have been working hard to improve the PyCharm experience for software engineers working within the data science space. PyCharm Pro brings a new UI for notebooks, support for popular shortcuts and interactive outputs, and more.</li>
+					<li><strong>Remote development support (beta):</strong> PyCharm Pro now supports a Beta version of the remote development workflow. You can now connect to remote machines from anywhere in the world, run PyCharm’s backend, and take advantage of remote computing power while feeling as though everything is running locally.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2021.2.3" date="2021-10-20"/>
 		<release version="2021.2.2" date="2021-09-15"/>
 		<release version="2021.2.1" date="2021-08-27"/>
