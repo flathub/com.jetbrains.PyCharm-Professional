@@ -16,6 +16,15 @@ finish-args:
   - --filesystem=xdg-run/keyring
   - --device=all
   - --env=PYCHARM_JDK=${FLATPAK_DEST}/pycharm/jre64/
+  - --env=PATH=/app/bin:/app/extensions/bin:/usr/bin
+add-extensions:
+  com.jetbrains.PyCharm.Extensions:
+    directory: extensions
+    version: '21.08'
+    add-ld-path: lib
+    merge-dirs: bin;lib
+    subdirectories: true
+    no-autodownload: true
 modules:
   - name: python3-virtualenv
     buildsystem: simple
@@ -219,6 +228,8 @@ modules:
       - install -Dm644 -t /app/share/metainfo com.jetbrains.PyCharm-Professional.appdata.xml
       - install -Dm644 -t /app/share/applications com.jetbrains.PyCharm-Professional.desktop
       - install -Dm644 -t /app/share/icons/hicolor/scalable/apps com.jetbrains.PyCharm-Professional.svg
+      - install -d "${FLATPAK_DEST}/extensions"
+      - install -d "${FLATPAK_DEST}/packages"
     sources:
       - type: extra-data
         url: https://download.jetbrains.com/python/pycharm-professional-2021.3.2.tar.gz
