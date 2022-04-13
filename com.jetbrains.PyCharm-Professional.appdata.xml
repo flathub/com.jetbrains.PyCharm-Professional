@@ -18,7 +18,15 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
-		<release version="2022.1" date="2022-04-13"/>
+		<release version="2022.1" date="2022-04-13">
+			<description>
+				<ul>
+					<li><strong>Authentication Support for Custom Package Repositories:</strong> Configure basic HTTP authentication to access custom package repositories and easily manage dependencies via PyCharm without switching to the terminal for manual installation.</li>
+					<li><strong>Improved TypedDict Support:</strong> PyCharm makes it easy to use <em>dict</em> literals as arguments for functions or to instantiate objects from classes where <em>TypedDict</em> is expected by providing code completion for the available keys.</li>
+					<li><strong>New Services UI for Docker:</strong> We’ve significantly reworked Docker’s UI in the <em>Services</em> tool window to give you much clearer control of your containers, images, networks, and volumes.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2021.3.3" date="2022-03-17"/>
 		<release version="2021.3.2" date="2022-01-31"/>
 		<release version="2021.3.1" date="2021-12-29"/>
