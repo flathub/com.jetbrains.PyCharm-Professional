@@ -18,6 +18,17 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
+		<release version="2022.2" date="2022-07-28">
+			<description>
+				<ul>
+					<li><strong>Python 3.11:</strong> Code insight for exception groups and <code>except*</code> operator.</li>
+					<li><strong>Python 3.11:</strong> Code insight for the new <code>Required[ ]</code> and <code>NotRequired[ ]</code> notations for individual TypedDict keys.</li>
+					<li><strong>HTTP-client:</strong> Support for WebSocket connections.</li>
+					<li>New UI for setting up remote interpreters.</li>
+					<li>Initial support for PyScript.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2022.1.4" date="2022-07-21"/>
 		<release version="2022.1.3" date="2022-06-22"/>
 		<release version="2022.1.2" date="2022-06-01"/>
