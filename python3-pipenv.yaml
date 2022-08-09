@@ -1,0 +1,56 @@
+# Generated with flatpak-pip-generator pipenv --runtime com.jetbrains.PyCharm-Professional --checker-data --yaml
+name: python3-pipenv
+buildsystem: simple
+build-commands:
+  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+    --prefix=${FLATPAK_DEST} "pipenv" --no-build-isolation
+sources:
+  - type: file
+    url: https://files.pythonhosted.org/packages/a6/d5/17f02b379525d1ff9678bfa58eb9548f561c8826deb0b85797aa0eed582d/filelock-3.7.1-py3-none-any.whl
+    sha256: 37def7b658813cda163b56fc564cdc75e86d338246458c4c28ae84cabefa2404
+    x-checker-data:
+      name: filelock
+      packagetype: bdist_wheel
+      type: pypi
+  - type: file
+    url: https://files.pythonhosted.org/packages/d5/94/db0229ff741c8ff2ff0ac5a8a58d142bd0f81c810701ad9eae2c4c718ede/distlib-0.3.5-py2.py3-none-any.whl
+    sha256: b710088c59f06338ca514800ad795a132da19fda270e3ce4affc74abf955a26c
+    x-checker-data:
+      name: distlib
+      packagetype: bdist_wheel
+      type: pypi
+  - type: file
+    url: https://files.pythonhosted.org/packages/e9/06/d3d367b7af6305b16f0d28ae2aaeb86154fa91f144f036c2d5002a5a202b/certifi-2022.6.15-py3-none-any.whl
+    sha256: fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412
+    x-checker-data:
+      name: certifi
+      packagetype: bdist_wheel
+      type: pypi
+  - type: file
+    url: https://files.pythonhosted.org/packages/c2/d2/e80b6ad57bc0727fe0bbe7d9c496bde4ef3008e57f452ed1bfafe6618d04/virtualenv-20.16.3-py2.py3-none-any.whl
+    sha256: 4193b7bc8a6cd23e4eb251ac64f29b4398ab2c233531e66e40b19a6b7b0d30c1
+    x-checker-data:
+      name: virtualenv
+      packagetype: bdist_wheel
+      type: pypi
+  - type: file
+    url: https://files.pythonhosted.org/packages/b4/40/5af97bfd06644bca952bd4c9289290c85c2b5db72b4119feb6969d72f7b8/pipenv-2022.8.5-py2.py3-none-any.whl
+    sha256: e9333cdd365aeb9c3f9460ac2d84c4750e3ffa8e766fe3d5de03d4496b55d851
+    x-checker-data:
+      name: pipenv
+      packagetype: bdist_wheel
+      type: pypi
+  - type: file
+    url: https://files.pythonhosted.org/packages/21/ac/e07058dc5a6c1b97f751d24f20d4b0ec14d735d77f4a1f78c471d6d13a43/virtualenv_clone-0.5.7-py3-none-any.whl
+    sha256: 44d5263bceed0bac3e1424d64f798095233b64def1c5689afa43dc3223caf5b0
+    x-checker-data:
+      name: virtualenv_clone
+      packagetype: bdist_wheel
+      type: pypi
+  - type: file
+    url: https://files.pythonhosted.org/packages/ed/22/967181c94c3a4063fe64e15331b4cb366bdd7dfbf46fcb8ad89650026fec/platformdirs-2.5.2-py3-none-any.whl
+    sha256: 027d8e83a2d7de06bbac4e5ef7e023c02b863d7ea5d079477e722bb41ab25788
+    x-checker-data:
+      name: platformdirs
+      packagetype: bdist_wheel
+      type: pypi
