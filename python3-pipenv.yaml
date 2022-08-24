@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "pipenv" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/a6/d5/17f02b379525d1ff9678bfa58eb9548f561c8826deb0b85797aa0eed582d/filelock-3.7.1-py3-none-any.whl
-    sha256: 37def7b658813cda163b56fc564cdc75e86d338246458c4c28ae84cabefa2404
+    url: https://files.pythonhosted.org/packages/94/b3/ff2845971788613e646e667043fdb5f128e2e540aefa09a3c55be8290d6d/filelock-3.8.0-py3-none-any.whl
+    sha256: 617eb4e5eedc82fc5f47b6d61e4d11cb837c56cb4544e39081099fa17ad109d4
     x-checker-data:
       name: filelock
       packagetype: bdist_wheel
@@ -34,8 +34,8 @@ sources:
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/b4/40/5af97bfd06644bca952bd4c9289290c85c2b5db72b4119feb6969d72f7b8/pipenv-2022.8.5-py2.py3-none-any.whl
-    sha256: e9333cdd365aeb9c3f9460ac2d84c4750e3ffa8e766fe3d5de03d4496b55d851
+    url: https://files.pythonhosted.org/packages/a1/0b/dbd814685a027f34c651f47fe0b7b0cccc86a380d999ecd1622b7241051c/pipenv-2022.8.24-py2.py3-none-any.whl
+    sha256: f05d87a4fd76fc02f8cf3b0b179f00889e82d6d7204a4ea9ebcf534965956ecc
     x-checker-data:
       name: pipenv
       packagetype: bdist_wheel
