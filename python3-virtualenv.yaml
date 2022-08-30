@@ -6,22 +6,22 @@ build-commands:
     --prefix=${FLATPAK_DEST} "virtualenv" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/a6/d5/17f02b379525d1ff9678bfa58eb9548f561c8826deb0b85797aa0eed582d/filelock-3.7.1-py3-none-any.whl
-    sha256: 37def7b658813cda163b56fc564cdc75e86d338246458c4c28ae84cabefa2404
+    url: https://files.pythonhosted.org/packages/94/b3/ff2845971788613e646e667043fdb5f128e2e540aefa09a3c55be8290d6d/filelock-3.8.0-py3-none-any.whl
+    sha256: 617eb4e5eedc82fc5f47b6d61e4d11cb837c56cb4544e39081099fa17ad109d4
     x-checker-data:
       name: filelock
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/d5/94/db0229ff741c8ff2ff0ac5a8a58d142bd0f81c810701ad9eae2c4c718ede/distlib-0.3.5-py2.py3-none-any.whl
-    sha256: b710088c59f06338ca514800ad795a132da19fda270e3ce4affc74abf955a26c
+    url: https://files.pythonhosted.org/packages/76/cb/6bbd2b10170ed991cf64e8c8b85e01f2fb38f95d1bc77617569e0b0b26ac/distlib-0.3.6-py2.py3-none-any.whl
+    sha256: f35c4b692542ca110de7ef0bea44d73981caeb34ca0b9b6b2e6d7790dda8f80e
     x-checker-data:
       name: distlib
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/c2/d2/e80b6ad57bc0727fe0bbe7d9c496bde4ef3008e57f452ed1bfafe6618d04/virtualenv-20.16.3-py2.py3-none-any.whl
-    sha256: 4193b7bc8a6cd23e4eb251ac64f29b4398ab2c233531e66e40b19a6b7b0d30c1
+    url: https://files.pythonhosted.org/packages/4f/8c/2f44bb00c152f24d980c91b95c0b0f38f814eb5b7a7da102467d23749ee3/virtualenv-20.16.4-py3-none-any.whl
+    sha256: 035ed57acce4ac35c82c9d8802202b0e71adac011a511ff650cbcf9635006a22
     x-checker-data:
       name: virtualenv
       packagetype: bdist_wheel
