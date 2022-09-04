@@ -26,15 +26,15 @@ sources:
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/76/97/2a99f020be5e4a5a97ba10bc480e2e6a889b5087103a2c6b952b5f819d27/crashtest-0.3.1-py3-none-any.whl
-    sha256: 300f4b0825f57688b47b6d70c6a31de33512eb2fa1ac614f780939aa0cf91680
+    url: https://files.pythonhosted.org/packages/54/c2/7b8c3babedc92d62b3f5f8d2eaa4b969aaa70dba29f05bc7ef7dc3c18494/crashtest-0.4.0-py3-none-any.whl
+    sha256: 476839dfa58bb238aa7db8752db7029bfc8bdc87b571d3a15727da8af61b7487
     x-checker-data:
       name: crashtest
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/45/0c/3825603bf62f360829b1eea29a43dadce30829067e288170b3bf738aafd0/cleo-1.0.0a5-py3-none-any.whl
-    sha256: ff53056589300976e960f75afb792dfbfc9c78dcbb5a448e207a17b643826360
+    url: https://files.pythonhosted.org/packages/09/46/3577da4237675e90630e8e9ccd2c7dbcd42afd4463712a207eab148dfbc2/cleo-0.8.1-py2.py3-none-any.whl
+    sha256: 141cda6dc94a92343be626bb87a0b6c86ae291dfc732a57bf04310d4b4201753
     x-checker-data:
       name: cleo
       packagetype: bdist_wheel
@@ -61,8 +61,8 @@ sources:
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/89/35/05acac64d39ef3944770f9c1ddeec15aa64d3dcb09353922731a00ca3dbc/keyring-23.8.2-py3-none-any.whl
-    sha256: 10d2a8639663fe2090705a00b8c47c687cacdf97598ea9c11456679fa974473a
+    url: https://files.pythonhosted.org/packages/fd/4e/eeaa2a3609cb0074a3cdd910f625adeec95aa1c1b6039816b18f5f7ca3fe/keyring-23.9.1-py3-none-any.whl
+    sha256: 3565b9e4ea004c96e158d2d332a49f466733d565bb24157a60fd2e49f41a0fd1
     x-checker-data:
       name: keyring
       packagetype: bdist_wheel
