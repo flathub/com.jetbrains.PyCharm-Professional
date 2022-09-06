@@ -27,8 +27,8 @@ sources:
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/8d/04/359e97501122223c90b3a6f64e80a6621a4c16d75723f7b1bae4ef7d855d/pipenv-2022.8.31-py2.py3-none-any.whl
-    sha256: 5cb7368143d7fefe58509b10b227cb5f97d5455c21c21d47554cc9e3d74ff51b
+    url: https://files.pythonhosted.org/packages/a8/67/ab8cba1a4fd1220c706375976e1ff06520f6063c1e9e90ffff9969e7ed5c/pipenv-2022.9.4-py2.py3-none-any.whl
+    sha256: 7bbfcf49628c6be01a1c2d0fbb3439a3878bcdf0a59cead2cf3688b386839b56
     x-checker-data:
       name: pipenv
       packagetype: bdist_wheel
