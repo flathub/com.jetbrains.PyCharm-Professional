@@ -1,6 +1,6 @@
 app-id: com.jetbrains.PyCharm-Professional
 runtime: org.freedesktop.Sdk
-runtime-version: '21.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: pycharm
 separate-locales: false
@@ -20,7 +20,7 @@ finish-args:
 add-extensions:
   com.jetbrains.PyCharm.Extensions:
     directory: extensions
-    version: '21.08'
+    version: '22.08'
     add-ld-path: lib
     merge-dirs: bin;lib
     subdirectories: true
@@ -44,9 +44,9 @@ modules:
       - install -d "${FLATPAK_DEST}/packages"
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2022.2.1.tar.gz
-        sha256: a23ffa7b617ab27d3c8abb0689b4d03b5370534193152cd4cfe4196c7d150751
-        size: 697403177
+        url: https://download.jetbrains.com/python/pycharm-professional-2022.2.2.tar.gz
+        sha256: b7bfb86026fba669bb22429ab0840afba5047680202762070cfbb1f181d53d0e
+        size: 697011515
         x-checker-data:
           type: jetbrains
           code: PCP
