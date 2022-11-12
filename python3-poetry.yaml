@@ -22,13 +22,13 @@ sources:
       type: pypi
 
   - type: file
-    url: https://files.pythonhosted.org/packages/44/28/0e86f03be17db993dce6b81825687ab7587fc54ff0659d20f7bffc03d72c/poetry_plugin_export-1.1.2-py3-none-any.whl
-    sha256: 946e3313b3d00c18fb9a50522e9d5e6a7e111beaba8d6ae33297662fc2070ac1
+    url: https://files.pythonhosted.org/packages/5c/35/b88b68d6ef53840d694e2a9656670bc049b8c144930ca7c96662a0f26ac6/poetry_plugin_export-1.2.0-py3-none-any.whl
+    sha256: 109fb43ebfd0e79d8be2e7f9d43ba2ae357c4975a18dfc0cfdd9597dd086790e
     x-checker-data:
       name: poetry-plugin-export
       packagetype: bdist_wheel
       type: pypi
-      
+
   - type: file
     url: https://files.pythonhosted.org/packages/42/ac/455fdc7294acc4d4154b904e80d964cc9aae75b087bbf486be04df9f2abd/pyrsistent-0.18.1.tar.gz
     sha256: d4d61f8b993a7255ba714df3aca52700f8125289f84f704cf80916517c46eb96
