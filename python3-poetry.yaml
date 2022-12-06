@@ -14,12 +14,8 @@ sources:
       type: pypi
 
   - type: file
-    url: https://files.pythonhosted.org/packages/53/2e/8c9edbd32862b801e7e01ac5bb7a2fce827c5b535da9421003a857ac6204/poetry_core-1.4.0-py3-none-any.whl
-    sha256: 5559ab80384ac021db329ef317086417e140ee1176bcfcb3a3838b544e213c8e
-    x-checker-data:
-      name: poetry-core
-      packagetype: bdist_wheel
-      type: pypi
+    url: https://files.pythonhosted.org/packages/12/e4/5c91edb0bc975752c308e425a86b02b5b00cf990b362cfc482254d66cbbb/poetry_core-1.3.2-py3-none-any.whl
+    sha256: ea0f5a90b339cde132b4e43cff78a1b440cd928db864bb67cfc97fdfcefe7218
 
   - type: file
     url: https://files.pythonhosted.org/packages/5c/35/b88b68d6ef53840d694e2a9656670bc049b8c144930ca7c96662a0f26ac6/poetry_plugin_export-1.2.0-py3-none-any.whl
