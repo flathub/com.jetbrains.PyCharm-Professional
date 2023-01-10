@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "poetry" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/0f/b0/939590ce00f29354d4fdb43dda1da9e0ff5172bcc72ec75a385debc1ee31/poetry-1.3.1-py3-none-any.whl
-    sha256: e8c24984af3e124ef31a5891c1c11871c948687368ee451e95f7f101ffbf8204
+    url: https://files.pythonhosted.org/packages/45/b2/98e33a3699ee82decba1e26d71cd1b1c09b2d60792e29004ecbd32af3097/poetry-1.3.2-py3-none-any.whl
+    sha256: 41980d557954b1418fa503de7a8fb25f19c03c0223a171666b305f05a45fc206
     x-checker-data:
       name: poetry
       packagetype: bdist_wheel
