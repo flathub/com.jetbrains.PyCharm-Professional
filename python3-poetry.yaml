@@ -18,8 +18,8 @@ sources:
     sha256: 5559ab80384ac021db329ef317086417e140ee1176bcfcb3a3838b544e213c8e
 
   - type: file
-    url: https://files.pythonhosted.org/packages/5c/35/b88b68d6ef53840d694e2a9656670bc049b8c144930ca7c96662a0f26ac6/poetry_plugin_export-1.2.0-py3-none-any.whl
-    sha256: 109fb43ebfd0e79d8be2e7f9d43ba2ae357c4975a18dfc0cfdd9597dd086790e
+    url: https://files.pythonhosted.org/packages/ca/9e/8ca64ca388309ccd216f8376a864b24676510ef877a0e2ec2e7d84c27e55/poetry_plugin_export-1.3.0-py3-none-any.whl
+    sha256: 6e5919bf84afcb08cdd419a03f909f490d8671f00633a3c6df8ba09b0820dc2f
     x-checker-data:
       name: poetry-plugin-export
       packagetype: bdist_wheel
