@@ -46,9 +46,9 @@ modules:
       - install -d "${FLATPAK_DEST}/packages"
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2022.3.3.tar.gz
-        sha256: 50c37aafd9fbe3a78d97cccf4f7abd80266c548d1c7ea4751b08c52810f16f2d
-        size: 722077551
+        url: https://download.jetbrains.com/python/pycharm-professional-2023.1.tar.gz
+        sha256: 26c3f49ad899178105943eb63e1abae85c40f2f44362a2b20629a6263a4f8da6
+        size: 732575017
         x-checker-data:
           type: jetbrains
           code: PCP
