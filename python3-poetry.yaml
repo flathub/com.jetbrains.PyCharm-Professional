@@ -14,8 +14,8 @@ sources:
       type: pypi
 
   - type: file
-    url: https://files.pythonhosted.org/packages/0d/b2/f8bd0896518b8f48fd7c80ca1021efa76eb6e50f08556060fb84494de800/poetry_core-1.5.1-py3-none-any.whl
-    sha256: b1900dea81eb18feb7323d404e5f10430205541a4a683a912893f9d2b5807797
+    url: https://files.pythonhosted.org/packages/fd/0d/5771088c54bc02f0a7f2c07a4dce2e25054dfad6e84f69ae12d91201b9ea/poetry_core-1.5.2-py3-none-any.whl
+    sha256: 832d40a1ea5fd10c0f648d0575cadddc8b79f06f91d83a1f1a73a7e1dfacfbd7
 
   - type: file
     url: https://files.pythonhosted.org/packages/ca/9e/8ca64ca388309ccd216f8376a864b24676510ef877a0e2ec2e7d84c27e55/poetry_plugin_export-1.3.0-py3-none-any.whl
@@ -198,5 +198,5 @@ sources:
     sha256: af266720050a66c893a6096a2f410989eeac74ff9a68ba194b3f6473e8e26171
 
   - type: file
-    url: https://files.pythonhosted.org/packages/bf/42/fe5f10fd0d58d5d8231a0bc39e664de09992f960597e9fbd3753f84423a3/installer-0.6.0-py3-none-any.whl
-    sha256: ae7c62d1d6158b5c096419102ad0d01fdccebf857e784cee57f94165635fe038
+    url: https://files.pythonhosted.org/packages/e5/ca/1172b6638d52f2d6caa2dd262ec4c811ba59eee96d54a7701930726bce18/installer-0.7.0-py3-none-any.whl
+    sha256: 05d1933f0a5ba7d8d6296bb6d5018e7c94fa473ceb10cf198a92ccea19c27b53
