@@ -15,7 +15,7 @@ finish-args:
   - --talk-name=org.freedesktop.secrets
   - --filesystem=xdg-run/keyring
   - --device=all
-  - --env=PYCHARM_JDK=${FLATPAK_DEST}/pycharm/jre64/
+  - --env=PYCHARM_JDK=${FLATPAK_DEST}/jbr/
   - --env=PATH=/app/bin:/app/extensions/bin:/usr/bin
 add-extensions:
   com.jetbrains.PyCharm.Extensions:
@@ -37,36 +37,33 @@ modules:
   - name: pycharm
     buildsystem: simple
     build-commands:
-      - install -D apply_extra /app/bin/apply_extra
-      - install -D pycharm /app/bin/pycharm
-      - install -Dm644 -t /app/share/metainfo com.jetbrains.PyCharm-Professional.appdata.xml
-      - install -Dm644 -t /app/share/applications com.jetbrains.PyCharm-Professional.desktop
-      - install -Dm644 -t /app/share/icons/hicolor/scalable/apps com.jetbrains.PyCharm-Professional.svg
+      - tar xzf pycharm-professional.tar.gz --directory=${FLATPAK_DEST}/ --strip-components 1
+      - install -D pycharm ${FLATPAK_DEST}/bin/pycharm
+      - install -Dm644 -t ${FLATPAK_DEST}/share/metainfo com.jetbrains.PyCharm-Professional.appdata.xml
+      - install -Dm644 -t ${FLATPAK_DEST}/share/applications com.jetbrains.PyCharm-Professional.desktop
+      - install -Dm644 -t ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps com.jetbrains.PyCharm-Professional.svg
+      - cat idea.properties | tee -a ${FLATPAK_DEST}/bin/idea.properties
       - install -d "${FLATPAK_DEST}/extensions"
       - install -d "${FLATPAK_DEST}/packages"
+      - /usr/bin/python3 ${FLATPAK_DEST}/plugins/python/helpers/pydev/setup_cython.py build_ext --inplace
     sources:
-      - type: extra-data
+      - type: file
         url: https://download.jetbrains.com/python/pycharm-professional-2023.1.tar.gz
         sha256: 26c3f49ad899178105943eb63e1abae85c40f2f44362a2b20629a6263a4f8da6
         size: 732575017
         x-checker-data:
           type: jetbrains
           code: PCP
-        filename: pycharm-professional.tar.gz
+        dest-filename: pycharm-professional.tar.gz
       - type: file
         path: com.jetbrains.PyCharm-Professional.appdata.xml
       - type: file
         path: com.jetbrains.PyCharm-Professional.desktop
       - type: file
         path: com.jetbrains.PyCharm-Professional.svg
-      - type: script
-        dest-filename: apply_extra
-        commands:
-          - set -e
-          - tar -xf pycharm-professional.tar.gz --strip-components 1
-          - rm -f pycharm-professional.tar.gz
-          - python3 plugins/python/helpers/pydev/setup_cython.py build_ext --inplace
+      - type: file
+        path: idea.properties
       - type: script
         dest-filename: pycharm
         commands:
-          - exec /app/extra/bin/pycharm.sh "$@"
+          - exec /app/bin/pycharm.sh "$@"
