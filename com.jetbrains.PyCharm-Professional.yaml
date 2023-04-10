@@ -5,18 +5,18 @@ sdk: org.freedesktop.Sdk
 command: pycharm
 separate-locales: false
 finish-args:
+  - --device=all
+  - --env=PATH=/app/bin:/app/extensions/bin:/usr/bin
+  - --env=PYCHARM_JDK=${FLATPAK_DEST}/extra/jbr/
+  - --filesystem=host
+  - --filesystem=xdg-run/keyring
   - --share=ipc
-  - --socket=x11
   - --share=network
   - --socket=pulseaudio
-  - --filesystem=host
   - --socket=session-bus
+  - --socket=x11
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.freedesktop.secrets
-  - --filesystem=xdg-run/keyring
-  - --device=all
-  - --env=PYCHARM_JDK=${FLATPAK_DEST}/pycharm/jre64/
-  - --env=PATH=/app/bin:/app/extensions/bin:/usr/bin
 add-extensions:
   com.jetbrains.PyCharm.Extensions:
     directory: extensions
@@ -39,6 +39,7 @@ modules:
     build-commands:
       - install -D apply_extra /app/bin/apply_extra
       - install -D pycharm /app/bin/pycharm
+      - install -D idea.properties ${FLATPAK_DEST}/idea.properties
       - install -Dm644 -t /app/share/metainfo com.jetbrains.PyCharm-Professional.appdata.xml
       - install -Dm644 -t /app/share/applications com.jetbrains.PyCharm-Professional.desktop
       - install -Dm644 -t /app/share/icons/hicolor/scalable/apps com.jetbrains.PyCharm-Professional.svg
@@ -59,13 +60,16 @@ modules:
         path: com.jetbrains.PyCharm-Professional.desktop
       - type: file
         path: com.jetbrains.PyCharm-Professional.svg
+      - type: file
+        path: idea.properties
       - type: script
         dest-filename: apply_extra
         commands:
-          - set -e
-          - tar -xf pycharm-professional.tar.gz --strip-components 1
+          - set -ex
+          - tar xf pycharm-professional.tar.gz --strip-components 1
           - rm -f pycharm-professional.tar.gz
-          - python3 plugins/python/helpers/pydev/setup_cython.py build_ext --inplace
+          - cat /app/idea.properties | tee -a /app/extra/bin/idea.properties
+          - python3 /app/extra/plugins/python/helpers/pydev/setup_cython.py build_ext --inplace
       - type: script
         dest-filename: pycharm
         commands:
