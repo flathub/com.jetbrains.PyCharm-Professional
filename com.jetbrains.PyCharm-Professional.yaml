@@ -48,9 +48,9 @@ modules:
       - install -d "${FLATPAK_DEST}/packages"
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2023.1.tar.gz
-        sha256: 26c3f49ad899178105943eb63e1abae85c40f2f44362a2b20629a6263a4f8da6
-        size: 732575017
+        url: https://download.jetbrains.com/python/pycharm-professional-2023.1.1.tar.gz
+        sha256: aaa8d136e47077cfe970a5b42aa2058bb74038c5dab354c9f6ff22bfa3aa327d
+        size: 733540872
         x-checker-data:
           type: jetbrains
           code: PCP
@@ -70,7 +70,8 @@ modules:
           - tar xf pycharm-professional.tar.gz --strip-components 1
           - rm -f pycharm-professional.tar.gz
           - cat /app/idea.properties | tee -a /app/extra/bin/idea.properties
-          - python3 /app/extra/plugins/python/helpers/pydev/setup_cython.py build_ext --inplace
+          - python3 /app/extra/plugins/python/helpers/pydev/setup_cython.py build_ext
+            --inplace
       - type: script
         dest-filename: pycharm
         commands:
