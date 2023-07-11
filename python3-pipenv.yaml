@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "pipenv" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/c8/ae/3118c7ed1e6dc76a3c2a51b42bc8d1d164e1a33d62cb1465f094c7fbe6d5/pipenv-2023.6.18-py3-none-any.whl
-    sha256: 624ea93feee40d49269fbb6a875a752b61e57e52255f9e9742247b20304a4f40
+    url: https://files.pythonhosted.org/packages/be/29/e28fb59b8a38ba4026e9aeaa42c4ba7a19bbebd0c1aaa3b40c55135899b3/pipenv-2023.7.11-py3-none-any.whl
+    sha256: c0eaeb69172b5c40c573c60cf08d269f7c773ab5203556fbcae4a10f2256ffd0
     x-checker-data:
       name: pipenv
       packagetype: bdist_wheel
@@ -27,8 +27,8 @@ sources:
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/e7/61/7fde5beff25a0dae6c2056203696169bd29188b6cedefff8ba6e7b54417b/platformdirs-3.8.0-py3-none-any.whl
-    sha256: ca9ed98ce73076ba72e092b23d3c93ea6c4e186b3f1c3dad6edd98ff6ffcca2e
+    url: https://files.pythonhosted.org/packages/9e/d8/563a9fc17153c588c8c2042d2f0f84a89057cdb1c30270f589c88b42d62c/platformdirs-3.8.1-py3-none-any.whl
+    sha256: cec7b889196b9144d088e4c57d9ceef7374f6c39694ad1577a0aab50d27ea28c
     x-checker-data:
       name: platformdirs
       packagetype: bdist_wheel
