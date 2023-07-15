@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "virtualenv" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/2a/5b/f5ba6ec56448dc85abb75b97dc918a621a52d119ade29c8c1b7e916b0cd3/virtualenv-20.23.1-py3-none-any.whl
-    sha256: 34da10f14fea9be20e0fd7f04aba9732f84e593dac291b757ce42e3368a39419
+    url: https://files.pythonhosted.org/packages/c5/d5/f914b715f8b4c2ae8ca10112d389c04bed368ddd8888b70dafe740269bb5/virtualenv-20.24.0-py3-none-any.whl
+    sha256: 18d1b37fc75cc2670625702d76849a91ebd383768b4e91382a8d51be3246049e
     x-checker-data:
       name: virtualenv
       packagetype: bdist_wheel
@@ -20,8 +20,8 @@ sources:
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/e7/61/7fde5beff25a0dae6c2056203696169bd29188b6cedefff8ba6e7b54417b/platformdirs-3.8.0-py3-none-any.whl
-    sha256: ca9ed98ce73076ba72e092b23d3c93ea6c4e186b3f1c3dad6edd98ff6ffcca2e
+    url: https://files.pythonhosted.org/packages/6d/a7/47b7088a28c8fe5775eb15281bf44d39facdbe4bc011a95ccb89390c2db9/platformdirs-3.9.1-py3-none-any.whl
+    sha256: ad8291ae0ae5072f66c16945166cb11c63394c7a3ad1b1bc9828ca3162da8c2f
     x-checker-data:
       name: platformdirs
       packagetype: bdist_wheel
