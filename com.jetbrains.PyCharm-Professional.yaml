@@ -51,6 +51,16 @@ modules:
         url: https://download.jetbrains.com/python/pycharm-professional-2023.1.4.tar.gz
         sha256: 0f9beda16f7e90631e75954bf780669ab05621b69e9f91a9e41ed1ecd1ac26cf
         size: 733759740
+        only-arches: [x86_64]
+        x-checker-data:
+          type: jetbrains
+          code: PCP
+        filename: pycharm-professional.tar.gz
+      - type: extra-data
+        url: https://download.jetbrains.com/python/pycharm-professional-2023.1.4-aarch64.tar.gz
+        sha256: eed03923f55f84ff59741e297bfa271685b43a1016c62340353128b5917dcf6a
+        size: 730288805
+        only-arches: [aarch64]
         x-checker-data:
           type: jetbrains
           code: PCP
