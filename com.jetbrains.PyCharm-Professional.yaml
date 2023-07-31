@@ -58,9 +58,9 @@ modules:
           code: PCP
 
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2023.1.4-aarch64.tar.gz
-        sha256: eed03923f55f84ff59741e297bfa271685b43a1016c62340353128b5917dcf6a
-        size: 730288805
+        url: https://download.jetbrains.com/python/pycharm-professional-2023.2-aarch64.tar.gz
+        sha256: 533916df23c39ac06df41bb98b7611b707492e51e5ad4b4a9aab8a7391edd9f2
+        size: 754025604
         filename: pycharm-professional.tar.gz
         only-arches: [aarch64]
         x-checker-data:
