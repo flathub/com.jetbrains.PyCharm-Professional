@@ -179,13 +179,13 @@ sources:
   #
 
   - type: file
-    url: https://files.pythonhosted.org/packages/fa/44/da3085398b75432f0b08a3ee1dd1152a67f87efaccef49157b3ef2da3ee1/rapidfuzz-2.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: 6534afc787e32c4104f65cdeb55f6abe4d803a2d0553221d00ef9ce12788dcde
+    url: https://files.pythonhosted.org/packages/94/c2/7707fd4cecfb026d3cbc7fadebfd9203828c0c2bfedd5c476ca633f7b8cb/rapidfuzz-2.15.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: c35da09ab9797b020d0d4f07a66871dfc70ea6566363811090353ea971748b5a
     only-arches: [x86_64]
 
   - type: file
-    url: https://files.pythonhosted.org/packages/8e/59/e0dda2bd9511b08bee145a687503a002d983539a916308b3cf81c91c701b/rapidfuzz-2.15.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-    sha256: d4deae6a918ecc260d0c4612257be8ba321d8e913ccb43155403842758c46fbe
+    url: https://files.pythonhosted.org/packages/d4/f6/1a2c0d7511adcc2621667793855a38bc926709e312d850435862f3726088/rapidfuzz-2.15.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: da7fac7c3da39f93e6b2ebe386ed0ffe1cefec91509b91857f6e1204509e931f
     only-arches: [aarch64]
 
   - type: file
