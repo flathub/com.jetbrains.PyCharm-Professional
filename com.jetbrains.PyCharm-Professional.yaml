@@ -1,6 +1,6 @@
 app-id: com.jetbrains.PyCharm-Professional
 runtime: org.freedesktop.Sdk
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: pycharm
 separate-locales: false
@@ -21,7 +21,7 @@ finish-args:
 add-extensions:
   com.jetbrains.PyCharm.Extensions:
     directory: extensions
-    version: '22.08'
+    version: '23.08'
     add-ld-path: lib
     merge-dirs: bin;lib
     subdirectories: true
@@ -48,9 +48,9 @@ modules:
       - install -d "${FLATPAK_DEST}/packages"
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2023.2.1.tar.gz
-        sha256: 8f7c0aca8f2a832164426393e55d543b3b56867f2497d8844547fb03e217f160
-        size: 758623797
+        url: https://download.jetbrains.com/python/pycharm-professional-2023.2.2.tar.gz
+        sha256: f7263b17e2456efcb5efab1eac53aafb6a0be1a7f9fbf25a419c9d7b447f6ded
+        size: 765382567
         filename: pycharm-professional.tar.gz
         only-arches: [x86_64]
         x-checker-data:
@@ -58,9 +58,9 @@ modules:
           code: PCP
 
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2023.2.1-aarch64.tar.gz
-        sha256: b77ef65b36977cd43244efbf9e632e392349a365342c5e817be9a87784f540ca
-        size: 759962620
+        url: https://download.jetbrains.com/python/pycharm-professional-2023.2.2-aarch64.tar.gz
+        sha256: 2cf259859847f7a979565f31faa60148d571206c78c9309dcdf867b76c16ef25
+        size: 766728214
         filename: pycharm-professional.tar.gz
         only-arches: [aarch64]
         x-checker-data:
