@@ -6,20 +6,20 @@ build-commands:
     --prefix=${FLATPAK_DEST} "poetry" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/7d/25/f3bfda3c458d114005af99441d009936b85a34a730aeb9cf57fb2630d9f7/poetry-1.6.1-py3-none-any.whl
-    sha256: 9b4cb6079c08cc0d91e8cba18a6bd4d4f7d7830263a7fb18ecb3faa77937c988
+    url: https://files.pythonhosted.org/packages/5f/7c/fb9e4addaabec3ce54370ebaf6d6ed2a77cb4b69f79b966ead6c8e148b77/poetry-1.7.0-py3-none-any.whl
+    sha256: cd34af106676bf4224e6aa7aaa31e89d191f7af562d2a0ee08628dea5dc8779b
     x-checker-data:
       name: poetry
       packagetype: bdist_wheel
       type: pypi
 
   - type: file
-    url: https://files.pythonhosted.org/packages/bf/d4/ce72ac247f414d15ff046f0926b76eb42bd743e83c1df28e856f328e3db1/poetry_core-1.7.0-py3-none-any.whl
-    sha256: 38e174cdb00a84ee4a1cab66a378b435747f72414f5573bc18cfc3850a94df38
+    url: https://files.pythonhosted.org/packages/99/bc/058b8ff87871fce6615ad032d62c773272f243266b110f7b86d146cf78d8/poetry_core-1.8.1-py3-none-any.whl
+    sha256: 194832b24f3283e01c5402eae71a6aae850ecdfe53f50a979c76bf7aa5010ffa
 
   - type: file
-    url: https://files.pythonhosted.org/packages/e9/12/43553a79e1d3bf8de119125dfc3e1fcc8f4258d658b603908d02efaed256/poetry_plugin_export-1.5.0-py3-none-any.whl
-    sha256: cd8267597970375ca29868daec5e7718bad500c7584663af3eeb0ed16f24e2bd
+    url: https://files.pythonhosted.org/packages/17/bb/78d7d920bb463e4bee64f44d8b0d4a286a80af7e76ff8326e5169103f44b/poetry_plugin_export-1.6.0-py3-none-any.whl
+    sha256: 2dce6204c9318f1f6509a11a03921fb3f461b201840b59f1c237b6ab454dabcf
     x-checker-data:
       name: poetry_plugin_export
       packagetype: bdist_wheel
@@ -42,8 +42,8 @@ sources:
     sha256: 8d23eac5fa660409f57472e3851dab7ac18aba459a8d19cbbba86d3d5aecd2a5
 
   - type: file
-    url: https://files.pythonhosted.org/packages/b1/ae/0329af2a4c22836010c43760233a181a314853a97e0f2b53b02825c4c9b7/cleo-2.0.1-py3-none-any.whl
-    sha256: 6eb133670a3ed1f3b052d53789017b6e50fca66d1287e6e6696285f4cb8ea448
+    url: https://files.pythonhosted.org/packages/2d/f5/6bbead8b880620e5a99e0e4bb9e22e67cca16ff48d54105302a3e7821096/cleo-2.1.0-py3-none-any.whl
+    sha256: 4a31bd4dd45695a64ee3c4758f583f134267c2bc518d8ae9a29cf237d009b07e
 
   - type: file
     url: https://files.pythonhosted.org/packages/22/a6/858897256d0deac81a172289110f31629fc4cee19b6f01283303e18c8db3/ptyprocess-0.7.0-py2.py3-none-any.whl
@@ -154,8 +154,8 @@ sources:
     sha256: 283c11acd6b928d2f6a7c73fa0d01cb2bdc5f07c57a2eeb6e83d5e56b97976f8
 
   - type: file
-    url: https://files.pythonhosted.org/packages/58/91/17b00d5fac63d3dca605f1b8269ba3c65e98059e1fd99d00283e42a454f0/build-0.10.0-py3-none-any.whl
-    sha256: af266720050a66c893a6096a2f410989eeac74ff9a68ba194b3f6473e8e26171
+    url: https://files.pythonhosted.org/packages/93/dd/b464b728b866aaa62785a609e0dd8c72201d62c5f7c53e7c20f4dceb085f/build-1.0.3-py3-none-any.whl
+    sha256: 589bf99a67df7c9cf07ec0ac0e5e2ea5d4b37ac63301c4986d1acb126aa83f8f
 
   - type: file
     url: https://files.pythonhosted.org/packages/e5/ca/1172b6638d52f2d6caa2dd262ec4c811ba59eee96d54a7701930726bce18/installer-0.7.0-py3-none-any.whl
@@ -174,18 +174,22 @@ sources:
     url: https://files.pythonhosted.org/packages/d9/66/48866fc6b158c81cc2bfecc04c480f105c6040e8b077bc54c634b4a67926/zipp-3.17.0-py3-none-any.whl
     sha256: 0e923e726174922dce09c53c59ad483ff7bbb8e572e00c7f7c46b88556409f31
 
+  - type: file
+    url: https://files.pythonhosted.org/packages/7f/1a/8aad366cf1779351741e5c791ae76dc8b293f72e9448c689cc2e730f06cb/fastjsonschema-2.18.1-py3-none-any.whl
+    sha256: aec6a19e9f66e9810ab371cc913ad5f4e9e479b63a7072a2cd060a9369e329a8
+
   #
   # platform dependent
   #
 
   - type: file
-    url: https://files.pythonhosted.org/packages/94/c2/7707fd4cecfb026d3cbc7fadebfd9203828c0c2bfedd5c476ca633f7b8cb/rapidfuzz-2.15.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: c35da09ab9797b020d0d4f07a66871dfc70ea6566363811090353ea971748b5a
+    url: https://files.pythonhosted.org/packages/9e/ae/33dd7c9a6f06c25dfb7e556756fb4adbcea1ec2c8c7efc8aaecb106ac882/rapidfuzz-3.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: 9cdbe8e80cc186d55f748a34393533a052d855357d5398a1ccb71a5021b58e8d
     only-arches: [x86_64]
 
   - type: file
-    url: https://files.pythonhosted.org/packages/d4/f6/1a2c0d7511adcc2621667793855a38bc926709e312d850435862f3726088/rapidfuzz-2.15.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-    sha256: da7fac7c3da39f93e6b2ebe386ed0ffe1cefec91509b91857f6e1204509e931f
+    url: https://files.pythonhosted.org/packages/6f/dd/273186a30879569e648351e89f3a7ad8bfbaf422d79422a88d111a1ca436/rapidfuzz-3.5.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: 1a4a7832737f87583f3863dc62e6f56dd4a9fefc5f04a7bdcb4c433a0f36bb1b
     only-arches: [aarch64]
 
   - type: file
