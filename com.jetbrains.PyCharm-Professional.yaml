@@ -48,9 +48,9 @@ modules:
       - install -d "${FLATPAK_DEST}/packages"
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2023.3.2.tar.gz
-        sha256: add6cb45aed969a49b21322fbd2e34c896f2a618d2a9eb8c865a05602365ef6c
-        size: 813456795
+        url: https://download.jetbrains.com/python/pycharm-professional-2023.3.3.tar.gz
+        sha256: 29c4955410b2ea26f0cd0f44e02c8fe2b1b7dad075f0739652051faa6f84797b
+        size: 816045880
         filename: pycharm-professional.tar.gz
         only-arches: [x86_64]
         x-checker-data:
@@ -58,9 +58,9 @@ modules:
           code: PCP
 
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2023.3.2-aarch64.tar.gz
-        sha256: c910983a2d23d32265335cb5cb96b7d853879379cc0f8510ba690419afee1238
-        size: 814433238
+        url: https://download.jetbrains.com/python/pycharm-professional-2023.3.3-aarch64.tar.gz
+        sha256: bf0d8935b316ca2ce2b27a8ee98042f50a0b69ab1a7bb7bb1278941178d54fcf
+        size: 817002751
         filename: pycharm-professional.tar.gz
         only-arches: [aarch64]
         x-checker-data:
