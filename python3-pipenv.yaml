@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "pipenv" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/f5/11/fc3de994aa4648632f3512ca18686fb82e6f250d82dda544a09f96726dae/pipenv-2023.11.15-py3-none-any.whl
-    sha256: 6eb537da5a27671f71dc596ea96a5b341aae9a1695413beeb95364467409bb3d
+    url: https://files.pythonhosted.org/packages/47/74/c08b0560af1ffbb6b94664e082e1560ecf4d83db76d6bf459a1b20e6b831/pipenv-2023.11.17-py3-none-any.whl
+    sha256: 365fc6ab41c0d5b7f38eacf161677321fe75bde7a3bc52d61965c826447c1a68
     x-checker-data:
       name: pipenv
       packagetype: bdist_wheel
