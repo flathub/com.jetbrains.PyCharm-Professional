@@ -183,10 +183,12 @@
 	<developer_name>JetBrains s.r.o.</developer_name>
 	<screenshots>
 		<screenshot type="default">
-			<image type="source">https://www.jetbrains.com/pycharm/img/screenshots/complexLook@2x.jpg</image>
+			<image type="source">https://www.jetbrains.com/pycharm/img/screenshots/refactoring_screenshot.png</image>
+			<caption>A refactoring screenshot</caption>
 		</screenshot>
 		<screenshot>
-			<image type="source">https://www.jetbrains.com/pycharm/img/screenshots/simpleLook@2x.jpg</image>
+			<image type="source">https://www.jetbrains.com/pycharm/img/screenshots/code-completion_screenshot.png</image>
+			<caption>Local ML code completion</caption>
 		</screenshot>
 	</screenshots>
 	<content_rating type="oars-1.1"/>
