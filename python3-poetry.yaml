@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "poetry" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/bd/9c/aff8a1fac5c8ae6180a56f6ff6f515057b188789923b1afb897196116735/poetry-1.8.2-py3-none-any.whl
-    sha256: b42b400d9a803af6e788a30a6f3e9998020b77860e28df20647eb10b6f414910
+    url: https://files.pythonhosted.org/packages/d8/54/9a86a66a7c2c922bfd867cc02c8c27587bd2571120a8fecb71167d7778dd/poetry-1.8.3-py3-none-any.whl
+    sha256: 88191c69b08d06f9db671b793d68f40048e8904c0718404b63dcc2b5aec62d13
     x-checker-data:
       name: poetry
       packagetype: bdist_wheel
@@ -18,8 +18,8 @@ sources:
     sha256: 4e0c9c6ad8cf89956f03b308736d84ea6ddb44089d16f2adc94050108ec1f5a1
 
   - type: file
-    url: https://files.pythonhosted.org/packages/a5/1e/106eb732a21b809b17366666d97a2b797d30f125efa4202a142d8485dd59/poetry_plugin_export-1.7.1-py3-none-any.whl
-    sha256: b2258e53ae0d369a73806f957ed0e726eb95c571a0ce8b1f273da686528cc1da
+    url: https://files.pythonhosted.org/packages/de/55/1dd7c8c955d71f58a9202c37bf8e037d697dc9f11a9a2ade65663251ee44/poetry_plugin_export-1.8.0-py3-none-any.whl
+    sha256: adbe232cfa0cc04991ea3680c865cf748bff27593b9abcb1f35fb50ed7ba2c22
     x-checker-data:
       name: poetry_plugin_export
       packagetype: bdist_wheel
@@ -70,8 +70,8 @@ sources:
     sha256: 30fbe87e8b51f3813c131e2841c86d007434d160bd16db586b40d47f31dd05b0
 
   - type: file
-    url: https://files.pythonhosted.org/packages/39/7b/88dbb785881c28a102619d46423cb853b46dbccc70d3ac362d99773a78ce/pexpect-4.8.0-py2.py3-none-any.whl
-    sha256: 0b48a55dcb3c05f3329815901ea4fc1537514d6ba867a152b581d69ae3710937
+    url: https://files.pythonhosted.org/packages/9e/c3/059298687310d527a58bb01f3b1965787ee3b40dce76752eda8b44e9a2c5/pexpect-4.9.0-py2.py3-none-any.whl
+    sha256: 7236d1e080e4936be2dc3e326cec0af72acf9212a7e1d060210e70a47e253523
 
   - type: file
     url: https://files.pythonhosted.org/packages/68/ce/95b0bae7968c65473e1298efb042e10cafc7bafc14d9e4f154008241c91d/cffi-1.16.0.tar.gz
@@ -118,8 +118,8 @@ sources:
     sha256: c0a454ad016ca575060802ee4d590dd912e35c122fa04e70306de3d076cce755
 
   - type: file
-    url: https://files.pythonhosted.org/packages/b3/f2/6e95c86a23a30fa205ea6303a524b20cbae27fbee69216377e3d95266406/pkginfo-1.9.6-py3-none-any.whl
-    sha256: 4b7a555a6d5a22169fcc9cf7bfd78d296b0361adad412a346c1226849af5e546
+    url: https://files.pythonhosted.org/packages/56/09/054aea9b7534a15ad38a363a2bd974c20646ab1582a387a95b8df1bfea1c/pkginfo-1.10.0-py3-none-any.whl
+    sha256: 889a6da2ed7ffc58ab5b900d888ddce90bce912f2d2de1dc1c26f4cb9fe65097
 
   - type: file
     url: https://files.pythonhosted.org/packages/56/29/3ec311dc18804409ecf0d2b09caa976f3ae6215559306b5b530004e11156/platformdirs-3.11.0-py3-none-any.whl
