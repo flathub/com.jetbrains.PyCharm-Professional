@@ -18,8 +18,11 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
-		<release version="2024.1.4" date="2024-06-25">
+		<release version="2024.1.5" date="2024-08-06">
 			<description></description>
+		</release>
+		<release version="2024.1.4" date="2024-06-25">
+			<description/>
 		</release>
 		<release version="2024.1.3" date="2024-06-10">
 			<description/>
@@ -195,12 +198,12 @@
 	<developer_name>JetBrains s.r.o.</developer_name>
 	<screenshots>
 		<screenshot type="default">
-			<image type="source">https://www.jetbrains.com/pycharm/img/screenshots/refactoring_screenshot.png</image>
-			<caption>A refactoring screenshot</caption>
+			<image type="source">https://resources.jetbrains.com/help/img/idea/2024.1/py_new_ui_overview.png</image>
+			<caption>New tool window layout</caption>
 		</screenshot>
 		<screenshot>
-			<image type="source">https://www.jetbrains.com/pycharm/img/screenshots/code-completion_screenshot.png</image>
-			<caption>Local ML code completion</caption>
+			<image type="source">https://resources.jetbrains.com/help/img/idea/2024.1/py_new_ui_dark_theme.png</image>
+			<caption>Themes, icons, fonts</caption>
 		</screenshot>
 	</screenshots>
 	<content_rating type="oars-1.1"/>
