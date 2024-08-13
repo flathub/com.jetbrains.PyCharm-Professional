@@ -13,7 +13,7 @@ flatpak-builder --repo=repo build com.jetbrains.PyCharm-Professional.yaml --forc
 ## Add PyCharm-Professional repo to remote
 
 ```
-flatpak remote-add --user mypycharm repo
+flatpak remote-add --user mypycharm repo --no-gpg-verify
 ```
 
 ## How to install PyCharm-Professional from flatpak
