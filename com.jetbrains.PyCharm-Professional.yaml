@@ -48,9 +48,9 @@ modules:
       - install -d "${FLATPAK_DEST}/packages"
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2024.2.0.1.tar.gz
-        sha256: 7d2bfb2449e85ca66ffaf40901a2c4b1498d43c16229bdad08c51a5b0571dc02
-        size: 1167761267
+        url: https://download.jetbrains.com/python/pycharm-professional-2024.2.1.tar.gz
+        sha256: 01802b2e4892a81c197cc1be08e036ea2c1dd84307a71337531b6cb2213e248a
+        size: 1059784446
         filename: pycharm-professional.tar.gz
         only-arches: [x86_64]
         x-checker-data:
@@ -58,9 +58,9 @@ modules:
           code: PCP
 
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-professional-2024.2.0.1-aarch64.tar.gz
-        sha256: 84cb34fd2ae9d96dc544f7e326015081e6186dbf7fc3f67a271d76107494f933
-        size: 1166928644
+        url: https://download.jetbrains.com/python/pycharm-professional-2024.2.1-aarch64.tar.gz
+        sha256: 76dd1747a5072d736129311c596ed6d5f4a628ebbbce136a5810b9ecee091953
+        size: 1058936383
         filename: pycharm-professional.tar.gz
         only-arches: [aarch64]
         x-checker-data:
