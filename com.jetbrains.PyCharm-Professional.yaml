@@ -87,4 +87,4 @@ modules:
       - type: script
         dest-filename: pycharm
         commands:
-          - exec /app/extra/bin/pycharm.sh "$@"
+          - exec /app/extra/bin/pycharm "$@"
