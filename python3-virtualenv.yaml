@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "virtualenv" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/07/4d/410156100224c5e2f0011d435e477b57aed9576fc7fe137abcf14ec16e11/virtualenv-20.26.3-py3-none-any.whl
-    sha256: 8cc4a31139e796e9a7de2cd5cf2489de1217193116a8fd42328f1bd65f434589
+    url: https://files.pythonhosted.org/packages/5d/ea/12f774a18b55754c730c8383dad8f10d7b87397d1cb6b2b944c87381bb3b/virtualenv-20.26.4-py3-none-any.whl
+    sha256: 48f2695d9809277003f30776d155615ffc11328e6a0a8c1f0ec80188d7874a55
     x-checker-data:
       name: virtualenv
       packagetype: bdist_wheel
