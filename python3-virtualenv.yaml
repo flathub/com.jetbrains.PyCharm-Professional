@@ -6,21 +6,21 @@ build-commands:
     --prefix=${FLATPAK_DEST} "virtualenv" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/07/4d/410156100224c5e2f0011d435e477b57aed9576fc7fe137abcf14ec16e11/virtualenv-20.26.3-py3-none-any.whl
-    sha256: 8cc4a31139e796e9a7de2cd5cf2489de1217193116a8fd42328f1bd65f434589
+    url: https://files.pythonhosted.org/packages/c6/1d/e1a44fdd6d30829ba21fc58b5d98a67e7aae8f4165f11d091e53aec12560/virtualenv-20.26.5-py3-none-any.whl
+    sha256: 4f3ac17b81fba3ce3bd6f4ead2749a72da5929c01774948e243db9ba41df4ff6
     x-checker-data:
       name: virtualenv
       packagetype: bdist_wheel
       type: pypi
 
   - type: file
-    url: https://files.pythonhosted.org/packages/00/45/ec3407adf6f6b5bf867a4462b2b0af27597a26bd3cd6e2534cb6ab029938/filelock-3.12.2-py3-none-any.whl
-    sha256: cbb791cdea2a72f23da6ac5b5269ab0a0d161e9ef0100e653b69049a7706d1ec
+    url: https://files.pythonhosted.org/packages/b9/f8/feced7779d755758a52d1f6635d990b8d98dc0a29fa568bbe0625f18fdf3/filelock-3.16.1-py3-none-any.whl
+    sha256: 2082e5703d51fbf98ea75855d9d5527e33d8ff23099bec374a134febee6946b0
 
   - type: file
-    url: https://files.pythonhosted.org/packages/56/29/3ec311dc18804409ecf0d2b09caa976f3ae6215559306b5b530004e11156/platformdirs-3.11.0-py3-none-any.whl
-    sha256: e9d171d00af68be50e9202731309c4e658fd8bc76f55c11c7dd760d023bda68e
+    url: https://files.pythonhosted.org/packages/3c/a6/bc1012356d8ece4d66dd75c4b9fc6c1f6650ddd5991e421177d9f8f671be/platformdirs-4.3.6-py3-none-any.whl
+    sha256: 73e575e1408ab8103900836b97580d5307456908a03e92031bab39e4554cc3fb
 
   - type: file
-    url: https://files.pythonhosted.org/packages/43/a0/9ba967fdbd55293bacfc1507f58e316f740a3b231fc00e3d86dc39bc185a/distlib-0.3.7-py2.py3-none-any.whl
-    sha256: 2e24928bc811348f0feb63014e97aaae3037f2cf48712d51ae61df7fd6075057
+    url: https://files.pythonhosted.org/packages/8e/41/9307e4f5f9976bc8b7fea0b66367734e8faf3ec84bc0d412d8cfabbb66cd/distlib-0.3.8-py2.py3-none-any.whl
+    sha256: 034db59a0b96f8ca18035f36290806a9a6e6bd9d1ff91e45a7f172eb17e51784
