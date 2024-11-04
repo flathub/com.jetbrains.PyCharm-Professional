@@ -1,4 +1,4 @@
-# Generated with flatpak-pip-generator poetry --runtime com.jetbrains.PyCharm-Professional --checker-data --yaml
+# Generated with flatpak-pip-generator poetry --runtime com.jetbrains.PyCharm-Professional --checker-data --yaml 
 name: python3-poetry
 buildsystem: simple
 build-commands:
