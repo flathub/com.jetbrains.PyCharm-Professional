@@ -1,4 +1,4 @@
-# Generated with flatpak-pip-generator poetry --runtime com.jetbrains.PyCharm-Professional --checker-data --yaml
+# Generated with flatpak-pip-generator poetry --runtime com.jetbrains.PyCharm-Professional --checker-data --yaml 
 name: python3-poetry
 buildsystem: simple
 build-commands:
@@ -6,16 +6,16 @@ build-commands:
     --prefix=${FLATPAK_DEST} "poetry" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/d8/54/9a86a66a7c2c922bfd867cc02c8c27587bd2571120a8fecb71167d7778dd/poetry-1.8.3-py3-none-any.whl
-    sha256: 88191c69b08d06f9db671b793d68f40048e8904c0718404b63dcc2b5aec62d13
+    url: https://files.pythonhosted.org/packages/62/93/b73911fd5eb152cd42cb7aca0ecc23289d6a94da7a6699046acc46224db9/poetry-1.8.4-py3-none-any.whl
+    sha256: 1223bb6dfdbdfbebc6790796b9b7a88ea1f1f4679e709594f698499010ffb129
     x-checker-data:
       name: poetry
       packagetype: bdist_wheel
       type: pypi
 
   - type: file
-    url: https://files.pythonhosted.org/packages/a1/8d/85fcf9bcbfefcc53a1402450f28e5acf39dcfde3aabb996a1d98481ac829/poetry_core-1.9.0-py3-none-any.whl
-    sha256: 4e0c9c6ad8cf89956f03b308736d84ea6ddb44089d16f2adc94050108ec1f5a1
+    url: https://files.pythonhosted.org/packages/f7/b4/ae500aaba6e003ff80889e3dee449b154d2dd70d520dc0402f23535a5995/poetry_core-1.9.1-py3-none-any.whl
+    sha256: 6f45dd3598e0de8d9b0367360253d4c5d4d0110c8f5c71120a14f0e0f116c1a0
 
   - type: file
     url: https://files.pythonhosted.org/packages/de/55/1dd7c8c955d71f58a9202c37bf8e037d697dc9f11a9a2ade65663251ee44/poetry_plugin_export-1.8.0-py3-none-any.whl
