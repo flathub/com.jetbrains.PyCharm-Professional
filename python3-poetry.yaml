@@ -6,20 +6,20 @@ build-commands:
     --prefix=${FLATPAK_DEST} "poetry" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/45/8e/5e6cbfd7654c93b08423fc62be737a79121fb30ad44e3d9c00292c93fcbb/poetry-1.8.5-py3-none-any.whl
-    sha256: 5505fba69bf2a792b5d7402d21839c853644337392b745109b86a23010cce5f3
+    url: https://files.pythonhosted.org/packages/da/7b/8fb18c676e360e7b9ded8fa09c777b55ff2995bc4d34a542b5d13edf499d/poetry-2.0.1-py3-none-any.whl
+    sha256: eb780a8acbd6eec4bc95e8ba104058c5129ea5a44115fc9b1fc0a2235412734d
     x-checker-data:
       name: poetry
       packagetype: bdist_wheel
       type: pypi
 
   - type: file
-    url: https://files.pythonhosted.org/packages/f7/b4/ae500aaba6e003ff80889e3dee449b154d2dd70d520dc0402f23535a5995/poetry_core-1.9.1-py3-none-any.whl
-    sha256: 6f45dd3598e0de8d9b0367360253d4c5d4d0110c8f5c71120a14f0e0f116c1a0
+    url: https://files.pythonhosted.org/packages/99/9e/b2d13aecfd3a7ea05e6eeddff7c450b8ff5233e5d0da834fbfd81b19acaf/poetry_core-2.0.1-py3-none-any.whl
+    sha256: a3c7009536522cda4eb0fb3805c9dc935b5537f8727dd01efb9c15e51a17552b
 
   - type: file
-    url: https://files.pythonhosted.org/packages/de/55/1dd7c8c955d71f58a9202c37bf8e037d697dc9f11a9a2ade65663251ee44/poetry_plugin_export-1.8.0-py3-none-any.whl
-    sha256: adbe232cfa0cc04991ea3680c865cf748bff27593b9abcb1f35fb50ed7ba2c22
+    url: https://files.pythonhosted.org/packages/bf/41/05f9494adb6ad0640be758de67db255a91a46362996020dd8cd21d0fcf60/poetry_plugin_export-1.9.0-py3-none-any.whl
+    sha256: e2621dd8c260dd705a8227f076075246a7ff5c697e18ddb90ff68081f47ee642
     x-checker-data:
       name: poetry_plugin_export
       packagetype: bdist_wheel
@@ -50,8 +50,8 @@ sources:
     sha256: 4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35
 
   - type: file
-    url: https://files.pythonhosted.org/packages/0e/8f/5772801169cf62e8232721034f91f81e33b0cfa6e51d3bf6ff65c503af2a/keyring-24.2.0-py3-none-any.whl
-    sha256: 4901caaf597bfd3bbd78c9a0c7c4c29fcd8310dab2cffefe749e916b6527acd6
+    url: https://files.pythonhosted.org/packages/d3/32/da7f44bcb1105d3e88a0b74ebdca50c59121d2ddf71c9e34ba47df7f3a56/keyring-25.6.0-py3-none-any.whl
+    sha256: 552a3f7af126ece7ed5c89753650eec89c7eaae8617d0aa4d9ad2b75111266bd
 
   - type: file
     url: https://files.pythonhosted.org/packages/c1/97/c698bd9350f307daad79dd740806e1a59becd693bd11443a0f531e3229b3/jsonschema-4.17.3-py3-none-any.whl
@@ -64,10 +64,6 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl
     sha256: 922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8
-
-  - type: file
-    url: https://files.pythonhosted.org/packages/57/e0/1b5f95c2651284a5d4fdfb2cc5ecad57fb694084cce59d9d4acb7ac30ecf/dulwich-0.21.6.tar.gz
-    sha256: 30fbe87e8b51f3813c131e2841c86d007434d160bd16db586b40d47f31dd05b0
 
   - type: file
     url: https://files.pythonhosted.org/packages/9e/c3/059298687310d527a58bb01f3b1965787ee3b40dce76752eda8b44e9a2c5/pexpect-4.9.0-py2.py3-none-any.whl
@@ -104,6 +100,14 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/c7/6b/1bc8fa93ea85146e08f0e0883bc579b7c7328364ed7df90b1628dcb36e10/jaraco.classes-3.3.0-py3-none-any.whl
     sha256: 10afa92b6743f25c0cf5f37c6bb6e18e2c5bb84a16527ccfc0040ea377e7aaeb
+
+  - type: file
+    url: https://files.pythonhosted.org/packages/9f/4f/24b319316142c44283d7540e76c7b5a6dbd5db623abd86bb7b3491c21018/jaraco.functools-4.1.0-py3-none-any.whl
+    sha256: ad159f13428bc4acbf5541ad6dec511f91573b90fba04df61dafa2a1231cf649
+
+  - type: file
+    url: https://files.pythonhosted.org/packages/ff/db/0c52c4cf5e4bd9f5d7135ec7669a3a767af21b3a308e1ed3674881e52b62/jaraco.context-6.0.1-py3-none-any.whl
+    sha256: f797fc481b490edb305122c9181830a3a5b76d84ef6d1aef2fb9b47ab956f9e4
 
   - type: file
     url: https://files.pythonhosted.org/packages/f0/eb/fcb708c7bf5056045e9e98f62b93bd7467eb718b0202e7698eb11d66416c/attrs-23.1.0-py3-none-any.whl
@@ -154,8 +158,8 @@ sources:
     sha256: 283c11acd6b928d2f6a7c73fa0d01cb2bdc5f07c57a2eeb6e83d5e56b97976f8
 
   - type: file
-    url: https://files.pythonhosted.org/packages/93/dd/b464b728b866aaa62785a609e0dd8c72201d62c5f7c53e7c20f4dceb085f/build-1.0.3-py3-none-any.whl
-    sha256: 589bf99a67df7c9cf07ec0ac0e5e2ea5d4b37ac63301c4986d1acb126aa83f8f
+    url: https://files.pythonhosted.org/packages/84/c2/80633736cd183ee4a62107413def345f7e6e3c01563dbca1417363cf957e/build-1.2.2.post1-py3-none-any.whl
+    sha256: 1d61c0887fa860c01971625baae8bdd338e517b836a2f70dd1f7aa3a6b2fc5b5
 
   - type: file
     url: https://files.pythonhosted.org/packages/e5/ca/1172b6638d52f2d6caa2dd262ec4c811ba59eee96d54a7701930726bce18/installer-0.7.0-py3-none-any.whl
@@ -177,6 +181,10 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/7f/1a/8aad366cf1779351741e5c791ae76dc8b293f72e9448c689cc2e730f06cb/fastjsonschema-2.18.1-py3-none-any.whl
     sha256: aec6a19e9f66e9810ab371cc913ad5f4e9e479b63a7072a2cd060a9369e329a8
+
+  - type: file
+    url: https://files.pythonhosted.org/packages/b9/fa/123043af240e49752f1c4bd24da5053b6bd00cad78c2be53c0d1e8b975bc/backports.tarfile-1.2.0-py3-none-any.whl
+    sha256: 77e284d754527b01fb1e6fa8a1afe577858ebe4e9dad8919e34c862cb399bc34
 
   #
   # platform dependent
@@ -201,3 +209,14 @@ sources:
     url: https://files.pythonhosted.org/packages/e2/b5/11bcc59ad5a7121fe1279a716f3e212f6b37ef993726b06c25aa3aefa0a7/cryptography-41.0.4-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
     sha256: cecfefa17042941f94ab54f769c8ce0fe14beff2694e9ac684176a2535bf9714
     only-arches: [aarch64]
+
+  - type: file
+    url: https://files.pythonhosted.org/packages/2d/3f/a1d68a681ecefc7e152fa43f50b49457aebd9fb2bbf3fcd491bc782a3de7/dulwich-0.22.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: 052715452b729544c611a107b2eef6111e527f041c1b666f8ed36c04e39c36b5
+    only-arches: [x86_64]
+
+  - type: file
+    url: https://files.pythonhosted.org/packages/b4/7b/e9bd9c32f195c816aaecd4e813a85bf7e5076c781a936cd0afaf1cfd11cc/dulwich-0.22.7-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: ca7ed207956001e6a8a2e3f319cdc37591e53f7eb04aedafa78f96768048c53e
+    only-arches: [aarch64]
+
