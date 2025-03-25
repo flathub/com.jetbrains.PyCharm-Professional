@@ -28,7 +28,7 @@ flatpak install --user mypycharm com.jetbrains.PyCharm-Professional
 flatpak run com.jetbrains.PyCharm-Professional
 ```
 
-## How tu uninstall PyCharm-Professional
+## How to uninstall PyCharm-Professional
 
 ```
 flatpak uninstall --user com.jetbrains.PyCharm-Professional
