@@ -48,9 +48,9 @@ modules:
       - install -d "${FLATPAK_DEST}/packages"
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-2025.1.2.tar.gz
-        sha256: 4a407779c5df9728e29698eeabdb4533911e755ead224d0c1deff959876c3108
-        size: 1181368408
+        url: https://download.jetbrains.com/python/pycharm-2025.1.3.tar.gz
+        sha256: 3423a6d09a5756d99b954db3625689928fcd761ce27462bbdc90421d29dab734
+        size: 1187171716
         filename: pycharm-professional.tar.gz
         only-arches: [x86_64]
         x-checker-data:
@@ -58,9 +58,9 @@ modules:
           code: PCP
 
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-2025.1.2-aarch64.tar.gz
-        sha256: 831f5563a354e617158cd88c2a63c0bda80b21c3a64fc98a3b6dc7ae22151805
-        size: 1178743040
+        url: https://download.jetbrains.com/python/pycharm-2025.1.3-aarch64.tar.gz
+        sha256: 8bd9aaaff638395b7b67fb3c376d183686f8b1f6dbe29d3c9dbd033cb800ba52
+        size: 1186030132
         filename: pycharm-professional.tar.gz
         only-arches: [aarch64]
         x-checker-data:
