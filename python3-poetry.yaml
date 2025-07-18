@@ -1,4 +1,4 @@
-# Generated with flatpak-pip-generator poetry --runtime com.jetbrains.PyCharm-Professional --checker-data --yaml 
+# Generated with flatpak-pip-generator poetry --runtime com.jetbrains.PyCharm-Professional --checker-data --yaml
 name: python3-poetry
 buildsystem: simple
 build-commands:
@@ -226,13 +226,13 @@ sources:
   #
 
   - type: file
-    url: https://files.pythonhosted.org/packages/9e/ae/33dd7c9a6f06c25dfb7e556756fb4adbcea1ec2c8c7efc8aaecb106ac882/rapidfuzz-3.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: 9cdbe8e80cc186d55f748a34393533a052d855357d5398a1ccb71a5021b58e8d
+    url: https://files.pythonhosted.org/packages/4e/20/e62b4d13ba851b0f36370060025de50a264d625f6b4c32899085ed51f980/rapidfuzz-3.13.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: 2d18228a2390375cf45726ce1af9d36ff3dc1f11dce9775eae1f1b13ac6ec50f
     only-arches: [x86_64]
 
   - type: file
-    url: https://files.pythonhosted.org/packages/6f/dd/273186a30879569e648351e89f3a7ad8bfbaf422d79422a88d111a1ca436/rapidfuzz-3.5.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-    sha256: 1a4a7832737f87583f3863dc62e6f56dd4a9fefc5f04a7bdcb4c433a0f36bb1b
+    url: https://files.pythonhosted.org/packages/07/09/de8069a4599cc8e6d194e5fa1782c561151dea7d5e2741767137e2a8c1f0/rapidfuzz-3.13.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: 5d4e13593d298c50c4f94ce453f757b4b398af3fa0fd2fde693c3e51195b7f69
     only-arches: [aarch64]
 
   - type: file
@@ -246,12 +246,12 @@ sources:
     only-arches: [aarch64]
 
   - type: file
-    url: https://files.pythonhosted.org/packages/2d/3f/a1d68a681ecefc7e152fa43f50b49457aebd9fb2bbf3fcd491bc782a3de7/dulwich-0.22.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: 052715452b729544c611a107b2eef6111e527f041c1b666f8ed36c04e39c36b5
+    url: https://files.pythonhosted.org/packages/fa/73/50ddf1f3ad592c2526cb34287f45b07ee6320b850efddda2917cc81ac651/dulwich-0.22.8-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: 9969099e15b939d3936f8bee8459eaef7ef5a86cd6173393a17fe28ca3d38aff
     only-arches: [x86_64]
 
   - type: file
-    url: https://files.pythonhosted.org/packages/b4/7b/e9bd9c32f195c816aaecd4e813a85bf7e5076c781a936cd0afaf1cfd11cc/dulwich-0.22.7-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-    sha256: ca7ed207956001e6a8a2e3f319cdc37591e53f7eb04aedafa78f96768048c53e
+    url: https://files.pythonhosted.org/packages/02/57/7163ed06a2d9bf1f34d89dcc7c5881119beeed287022c997b0a706edcfbe/dulwich-0.22.8-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sha256: 7bff1da8e2e6a607c3cb45f5c2e652739589fe891245e1d5b770330cdecbde41
     only-arches: [aarch64]
 
