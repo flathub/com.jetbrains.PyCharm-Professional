@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "poetry" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/b3/d7/d2ea346dd948fef5ab2e40ac2b337e461015ecff72919507eb347dad85a7/poetry-2.1.3-py3-none-any.whl
-    sha256: 7054d3f97ccce7f31961ead16250407c4577bfe57e2037a190ae2913fc40a20c
+    url: https://files.pythonhosted.org/packages/6d/37/578fe593a07daa5e4417a7965d46093a255ebd7fbb797df6959c0f378f43/poetry-2.1.4-py3-none-any.whl
+    sha256: 0019b64d33fed9184a332f7fad60ca47aace4d6a0e9c635cdea21b76e96f32ce
     x-checker-data:
       name: poetry
       packagetype: bdist_wheel
@@ -138,8 +138,8 @@ sources:
     sha256: 58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f
 
   - type: file
-    url: https://files.pythonhosted.org/packages/c6/1d/e1a44fdd6d30829ba21fc58b5d98a67e7aae8f4165f11d091e53aec12560/virtualenv-20.26.5-py3-none-any.whl
-    sha256: 4f3ac17b81fba3ce3bd6f4ead2749a72da5929c01774948e243db9ba41df4ff6
+    url: https://files.pythonhosted.org/packages/5c/c6/f8f28009920a736d0df434b52e9feebfb4d702ba942f15338cb4a83eafc1/virtualenv-20.32.0-py3-none-any.whl
+    sha256: 2c310aecb62e5aa1b06103ed7c2977b81e042695de2697d01017ff0f1034af56
 
   - type: file
     url: https://files.pythonhosted.org/packages/8e/41/9307e4f5f9976bc8b7fea0b66367734e8faf3ec84bc0d412d8cfabbb66cd/distlib-0.3.8-py2.py3-none-any.whl
@@ -254,4 +254,3 @@ sources:
     url: https://files.pythonhosted.org/packages/02/57/7163ed06a2d9bf1f34d89dcc7c5881119beeed287022c997b0a706edcfbe/dulwich-0.22.8-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
     sha256: 7bff1da8e2e6a607c3cb45f5c2e652739589fe891245e1d5b770330cdecbde41
     only-arches: [aarch64]
-
