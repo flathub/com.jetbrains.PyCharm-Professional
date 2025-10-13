@@ -1,6 +1,6 @@
 app-id: com.jetbrains.PyCharm-Professional
 runtime: org.freedesktop.Sdk
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: pycharm
 separate-locales: false
@@ -21,7 +21,7 @@ finish-args:
 add-extensions:
   com.jetbrains.PyCharm.Extensions:
     directory: extensions
-    version: '24.08'
+    version: '25.08'
     add-ld-path: lib
     merge-dirs: bin;lib
     subdirectories: true
@@ -48,9 +48,9 @@ modules:
       - install -d "${FLATPAK_DEST}/packages"
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-2025.2.1.1.tar.gz
-        sha256: 280da5efe11f17d86e5173fe0cf05af4704b9c858f1c9c2fea6de6b2071ada83
-        size: 1259922524
+        url: https://download.jetbrains.com/python/pycharm-2025.2.2.tar.gz
+        sha256: 6ffd11bc2ab84f57e90683ce5a9c73ff6ec47e5746e7e4d7ce5f2dc335af6481
+        size: 1260652980
         filename: pycharm-professional.tar.gz
         only-arches: [x86_64]
         x-checker-data:
@@ -58,9 +58,9 @@ modules:
           code: PCP
 
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-2025.2.1.1-aarch64.tar.gz
-        sha256: 97a359d900e4010a1d1ca57a9ae9f496f16bb377798d8fe0ffbfb071bbbc191c
-        size: 1257335850
+        url: https://download.jetbrains.com/python/pycharm-2025.2.2-aarch64.tar.gz
+        sha256: feb9b98c64739d39ecc9a8a67aeab1249448026f2f21f7d147953c66a99f5fe2
+        size: 1257886058
         filename: pycharm-professional.tar.gz
         only-arches: [aarch64]
         x-checker-data:
