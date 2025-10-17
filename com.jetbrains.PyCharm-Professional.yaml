@@ -27,8 +27,6 @@ add-extensions:
     subdirectories: true
     no-autodownload: true
 modules:
-  - shared-modules/libsecret/libsecret.json
-
   - python3-virtualenv.yaml
 
   - python3-pipenv.yaml
