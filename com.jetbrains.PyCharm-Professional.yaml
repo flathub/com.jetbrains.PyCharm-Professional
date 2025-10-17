@@ -27,8 +27,6 @@ add-extensions:
     subdirectories: true
     no-autodownload: true
 modules:
-  - shared-modules/libsecret/libsecret.json
-
   - python3-virtualenv.yaml
 
   - python3-pipenv.yaml
@@ -48,9 +46,9 @@ modules:
       - install -d "${FLATPAK_DEST}/packages"
     sources:
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-2025.2.2.tar.gz
-        sha256: 6ffd11bc2ab84f57e90683ce5a9c73ff6ec47e5746e7e4d7ce5f2dc335af6481
-        size: 1260652980
+        url: https://download.jetbrains.com/python/pycharm-2025.2.3.tar.gz
+        sha256: 58f6165ea8ace65e708c607bec49d20d46b8d5908045ae31703353a184e59a05
+        size: 1257991131
         filename: pycharm-professional.tar.gz
         only-arches: [x86_64]
         x-checker-data:
@@ -58,9 +56,9 @@ modules:
           code: PCP
 
       - type: extra-data
-        url: https://download.jetbrains.com/python/pycharm-2025.2.2-aarch64.tar.gz
-        sha256: feb9b98c64739d39ecc9a8a67aeab1249448026f2f21f7d147953c66a99f5fe2
-        size: 1257886058
+        url: https://download.jetbrains.com/python/pycharm-2025.2.3-aarch64.tar.gz
+        sha256: 41bcc2549f3f60d35d1d3bd0e16edd5b3614f23df499b30cd649bb4ba6148314
+        size: 1255246218
         filename: pycharm-professional.tar.gz
         only-arches: [aarch64]
         x-checker-data:
