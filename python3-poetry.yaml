@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "poetry" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/ec/52/abfc9449312877622aa87ece9e66b2f2d9290661d0023a963aedefda4099/poetry-2.2.1-py3-none-any.whl
-    sha256: f5958b908b96c5824e2acbb8b19cdef8a3351c62142d7ecff2d705396c8ca34c
+    url: https://files.pythonhosted.org/packages/a6/a5/560ce63c4f8af1179f441da7eb25fc326ced597f7cb3d470e41be1d6add1/poetry-2.3.1-py3-none-any.whl
+    sha256: 1067f3a500b57b348a7b7a2ec0ee8e09dce65164a21926b1f6713481d94e8ee4
     x-checker-data:
       name: poetry
       packagetype: bdist_wheel
@@ -18,8 +18,8 @@ sources:
     sha256: bdfce710edc10bfcf9ab35041605c480829be4ab23f5bc01202cfe5db8f125ab
 
   - type: file
-    url: https://files.pythonhosted.org/packages/bf/41/05f9494adb6ad0640be758de67db255a91a46362996020dd8cd21d0fcf60/poetry_plugin_export-1.9.0-py3-none-any.whl
-    sha256: e2621dd8c260dd705a8227f076075246a7ff5c697e18ddb90ff68081f47ee642
+    url: https://files.pythonhosted.org/packages/9c/c6/04e2f2e2155d3a987b1e364150abfc1d6667c135cfd4894a23e1f5405558/poetry_plugin_export-1.10.0-py3-none-any.whl
+    sha256: fb9b61332718fb91c8d9399edb00fd73cf99de37506adf617fbdf55079bab223
     x-checker-data:
       name: poetry_plugin_export
       packagetype: bdist_wheel
