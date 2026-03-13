@@ -2,12 +2,12 @@
 name: python3-virtualenv
 buildsystem: simple
 build-commands:
-- pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-  --prefix=${FLATPAK_DEST} "virtualenv" --no-build-isolation
+  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+    --prefix=${FLATPAK_DEST} "virtualenv" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/42/d7/394801755d4c8684b655d35c665aea7836ec68320304f62ab3c94395b442/virtualenv-20.38.0-py3-none-any.whl
-    sha256: d6e78e5889de3a4742df2d3d44e779366325a90cf356f15621fddace82431794
+    url: https://files.pythonhosted.org/packages/c6/59/7d02447a55b2e55755011a647479041bc92a82e143f96a8195cb33bd0a1c/virtualenv-21.2.0-py3-none-any.whl
+    sha256: 1bd755b504931164a5a496d217c014d098426cddc79363ad66ac78125f9d908f
     x-checker-data:
       name: virtualenv
       packagetype: bdist_wheel
