@@ -14,8 +14,8 @@ sources:
       type: pypi
 
   - type: file
-    url: https://files.pythonhosted.org/packages/01/10/c9f7ca739ab0956f8dc8737e6318b9812745589ed1e3f6fdfb6a5d64f58a/poetry_core-2.3.1-py3-none-any.whl
-    sha256: db1cf63b782570deb38bfba61e2304a553eef0740dc17959a50cc0f5115ee634
+    url: https://files.pythonhosted.org/packages/0e/38/646023abf93e47c6808cbee82423324505ec075d7b90a22654765e1eade7/poetry_core-2.3.2-py3-none-any.whl
+    sha256: 23df641b64f87fbb4ce1873c1915a4d4bb1b7d808c596e4307edc073e68d7234
 
 
   - type: file
@@ -119,8 +119,8 @@ sources:
     sha256: c783ac885519cab2c34927ccfa6bf64b5a704d7c69afaea583dd9b7afe969343
 
   - type: file
-    url: https://files.pythonhosted.org/packages/48/31/05e764397056194206169869b50cf2fee4dbbbc71b344705b9c0d878d4d8/platformdirs-4.9.2-py3-none-any.whl
-    sha256: 9170634f126f8efdae22fb58ae8a0eaa86f38365bc57897a6c4f781d1f5875bd
+    url: https://files.pythonhosted.org/packages/63/d7/97f7e3a6abb67d8080dd406fd4df842c2be0efaf712d1c899c32a075027c/platformdirs-4.9.4-py3-none-any.whl
+    sha256: 68a9a4619a666ea6439f2ff250c12a853cd1cbd5158d258bd824a7df6be2f868
 
   - type: file
     url: https://files.pythonhosted.org/packages/ef/79/c45f2d53efe6ada1110cf6f9fca095e4ff47a0454444aefdde6ac4789179/cachecontrol-0.14.4-py3-none-any.whl
