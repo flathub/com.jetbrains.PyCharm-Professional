@@ -5,7 +5,6 @@
 	<name>PyCharm-Professional</name>
 	<summary>The most intelligent Python IDE</summary>
 	<description>
-		<p>**NOTE: This package is not verified by, affiliated with, or supported by JetBrains s.r.o.**</p>
 		<p>PyCharm is designed by programmers, for programmers, to provide all the tools you need for productive Python development.</p>
 		<p>PyCharm provides smart code completion, code inspections, on-the-fly error highlighting and quick-fixes, 
 			along with automated code refactorings and rich navigation capabilities.</p>
