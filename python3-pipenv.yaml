@@ -15,23 +15,47 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/42/d7/394801755d4c8684b655d35c665aea7836ec68320304f62ab3c94395b442/virtualenv-20.38.0-py3-none-any.whl
     sha256: d6e78e5889de3a4742df2d3d44e779366325a90cf356f15621fddace82431794
-
+    x-checker-data:
+      name: virtualenv
+      packagetype: bdist_wheel
+      type: pypi
+      
   - type: file
     url: https://files.pythonhosted.org/packages/a4/a5/842ae8f0c08b61d6484b52f99a03510a3a72d23141942d216ebe81fefbce/filelock-3.25.2-py3-none-any.whl
     sha256: ca8afb0da15f229774c9ad1b455ed96e85a81373065fb10446672f64444ddf70
+    x-checker-data:
+      name: filelock
+      packagetype: bdist_wheel
+      type: pypi
 
   - type: file
     url: https://files.pythonhosted.org/packages/75/a6/a0a304dc33b49145b21f4808d763822111e67d1c3a32b524a1baf947b6e1/platformdirs-4.9.6-py3-none-any.whl
     sha256: e61adb1d5e5cb3441b4b7710bea7e4c12250ca49439228cc1021c00dcfac0917
+    x-checker-data:
+      name: platformdirs
+      packagetype: bdist_wheel
+      type: pypi
 
   - type: file
     url: https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl
     sha256: 922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8
+    x-checker-data:
+      name: certifi
+      packagetype: bdist_wheel
+      type: pypi
 
   - type: file
     url: https://files.pythonhosted.org/packages/33/6b/e0547afaf41bf2c42e52430072fa5658766e3d65bd4b03a563d1b6336f57/distlib-0.4.0-py2.py3-none-any.whl
     sha256: 9659f7d87e46584a30b5780e43ac7a2143098441670ff0a49d5f9034c54a6c16
+    x-checker-data:
+      name: distlib
+      packagetype: bdist_wheel
+      type: pypi
 
   - type: file
     url: https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl
     sha256: 5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124
+    x-checker-data:
+      name: packaging
+      packagetype: bdist_wheel
+      type: pypi
