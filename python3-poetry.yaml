@@ -1,4 +1,4 @@
-# Generated with flatpak-pip-generator poetry --runtime org.freedesktop.Sdk//25.08 --checker-data --yaml
+# Generated with uv tool run flatpak_pip_generator poetry --runtime org.freedesktop.Sdk//25.08 --checker-data --yaml
 name: python3-poetry
 buildsystem: simple
 build-commands:
@@ -6,16 +6,16 @@ build-commands:
     --prefix=${FLATPAK_DEST} "poetry" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/10/72/0f99ba625a73d81c22878f3c5af368f7d812a837c450b6004ab657858898/poetry-2.3.4-py3-none-any.whl
-    sha256: 2755806ed8a9f31340ea1b5f0e507da54c96437647ebf2873b6ca349be04e231
+    url: https://files.pythonhosted.org/packages/63/d5/ee2ab176d0ee8c7f7e80af401812ca750576cf929f64cd9066b90379fd49/poetry-2.4.3-py3-none-any.whl
+    sha256: 79ce90140d0dcded93bab2df97fdd26b433f6949d834b4ac7bb1951aaca65c2f
     x-checker-data:
+      type: pypi
       name: poetry
       packagetype: bdist_wheel
-      type: pypi
 
   - type: file
-    url: https://files.pythonhosted.org/packages/0e/38/646023abf93e47c6808cbee82423324505ec075d7b90a22654765e1eade7/poetry_core-2.3.2-py3-none-any.whl
-    sha256: 23df641b64f87fbb4ce1873c1915a4d4bb1b7d808c596e4307edc073e68d7234
+    url: https://files.pythonhosted.org/packages/6f/7f/6d97fb5b00cdb89159b648d16bee1d7c2c5046605c83868f36f940c99098/poetry_core-2.4.0-py3-none-any.whl
+    sha256: 4305848477da00272bebd3f615bbec87f64bd117cdb858ab660b626a06a9d96c
 
 
   - type: file
@@ -75,8 +75,8 @@ sources:
     sha256: cccfdd665f0a24fcf4726e690f65639d272bb0637b9b92dfd91a5568ccf6bd06
 
   - type: file
-    url: https://files.pythonhosted.org/packages/a4/a5/842ae8f0c08b61d6484b52f99a03510a3a72d23141942d216ebe81fefbce/filelock-3.25.2-py3-none-any.whl
-    sha256: ca8afb0da15f229774c9ad1b455ed96e85a81373065fb10446672f64444ddf70
+    url: https://files.pythonhosted.org/packages/cc/06/4f138f618dbea66803291274f228f01daf29f306fe8b96bc30dab765df75/filelock-3.32.6-py3-none-any.whl
+    sha256: 3f16ecd0117feae0dfc147e8c62eb5daeccd8bd800378c3ddf416de9b4feb6b1
 
   - type: file
     url: https://files.pythonhosted.org/packages/b5/11/87d6d29fb5d237229d67973a6c9e06e048f01cf4994dee194ab0ea841814/tomlkit-0.14.0-py3-none-any.whl
