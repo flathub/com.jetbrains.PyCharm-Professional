@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "virtualenv" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/85/fc/888c80b8da917bfc48a41887eca244f995d190bd3c01175727089fcaf27e/virtualenv-21.7.9-py3-none-any.whl
-    sha256: ba3b0bb41063c848d84d76a9fe3fb7711aaa0f2fe78708e8f3cd9714770e4eac
+    url: https://files.pythonhosted.org/packages/4c/7b/7ca6956dd5fd8298682186782de4a33c507552bce206adf6b0f2a3596353/virtualenv-21.11.1-py3-none-any.whl
+    sha256: 00596e6238363a1a69fd899a6e67365830be0b0bff9a9c83bdcad6e9aee3c419
     x-checker-data:
       type: pypi
       name: virtualenv
