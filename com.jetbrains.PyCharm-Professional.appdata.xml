@@ -22,8 +22,12 @@
 	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
 	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
 	<releases>
-		<release version="2026.2.2" date="2026-09-07">
+		<release version="2026.2.4" date="2026-10-30">
+			<url type="details">https://youtrack.jetbrains.com/articles/PY-A-233538642/PyCharm-2026.2.4-262.11879.98-build-Release-Notes</url>
 			<description></description>
+		</release>
+		<release version="2026.2.2" date="2026-09-07">
+			<description/>
 		</release>
 		<release version="2026.1.4" date="2026-07-03">
 			<description/>
