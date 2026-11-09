@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "pipenv" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/d5/e9/cfad9027f8fcda20d569b40e5e74b007e955c95a05ba80763e19572b5b23/pipenv-2026.8.0-py3-none-any.whl
-    sha256: 8da889c636a8cab59a435c1366f30d252ecee465372341eb8cd4da43b055ad9d
+    url: https://files.pythonhosted.org/packages/4e/67/db522d908f9f07423c4fd6128c49e6279516053ec0c25c7f63864c0882eb/pipenv-2026.11.0-py3-none-any.whl
+    sha256: 70f53e11c9429f2ce2511aa044bfd20b1e9c3e8aa3492978894d679fc96e18c3
     x-checker-data:
       name: pipenv
       packagetype: bdist_wheel
@@ -25,8 +25,8 @@ sources:
     sha256: 52f2f181bbfde907966932cc8312d967d02976422d66d537ea16092b8e291081
 
   - type: file
-    url: https://files.pythonhosted.org/packages/c4/51/29046e48f693c54e5b7412216d447a1d8362c9653148d98c02cdf65fa733/certifi-2026.10.19-py3-none-any.whl
-    sha256: 42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b
+    url: https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl
+    sha256: e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1
     x-checker-data:
       type: pypi
       name: certifi
@@ -36,8 +36,8 @@ sources:
     sha256: 4b0ce306c966eb73bc3a7b6abad017c556dadd92c44701562cd528ac7fde4d5b
 
   - type: file
-    url: https://files.pythonhosted.org/packages/43/5e/21abf578182fb15006a57faf3711a1e659e29d600d19b6e557eae908c81d/python_discovery-1.6.0-py3-none-any.whl
-    sha256: d4e244cf17b8b29819ed78003d55fbacf86eda23425b075454fff9271b79377a
+    url: https://files.pythonhosted.org/packages/ac/35/25bd092ca8a7e71192afdca67fbff4f797da74408e74ac3626e13b409ec0/python_discovery-1.9.5-py3-none-any.whl
+    sha256: a1fae8fca11e4bc61e38491c2aafff29e430b3c5e272d51ae52fb895bc4c0fac
     x-checker-data:
       type: pypi
       name: python-discovery
