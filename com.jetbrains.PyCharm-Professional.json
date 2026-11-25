@@ -33,8 +33,8 @@
         {
           "type": "archive",
           "strip-components": 0,
-          "url": "https://download.jetbrains.com/python/pycharm-2026.2.2.tar.gz",
-          "sha256": "60448e3fb4e6a700e3d2ad3583ea8de1505b3f436e6715329a5a35e31c34aced",
+          "url": "https://download.jetbrains.com/python/pycharm-2026.3.0.1.tar.gz",
+          "sha256": "277b7f1197495fa9dd4c8e2337783c7417188a2a3810fd5b979b9fefcbd49084",
           "only-arches": [
             "x86_64"
           ],
@@ -47,8 +47,8 @@
         {
           "type": "archive",
           "strip-components": 0,
-          "url": "https://download.jetbrains.com/python/pycharm-2026.2.2-aarch64.tar.gz",
-          "sha256": "16ff89b445b91c44680031509efcb97a28ba3fd7b094a0dc47dcdd5daa3541e0",
+          "url": "https://download.jetbrains.com/python/pycharm-2026.3.0.1-aarch64.tar.gz",
+          "sha256": "6dd7084f0a3ccc21b711b2989f6471b0596565b05e4cb08d90a49870fa6c2091",
           "only-arches": [
             "aarch64"
           ],
