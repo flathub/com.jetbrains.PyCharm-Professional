@@ -54,7 +54,7 @@
 			<li>Local AI-powered full line code completion (plugin)</li>
 		</ul>
 	</description>
-	<screenshots>
+	<!-- <screenshots>
 		<screenshot type="default">
 			<image>https://raw.githubusercontent.com/flathub/com.jetbrains.PyCharm-Professional/refs/heads/master/screenshots/hello-world.png</image>
 			<caption>Python support</caption>
@@ -76,7 +76,7 @@
 			<caption>Packages management</caption>
 		</screenshot>
 	</screenshots>
-	<!-- https://data.services.jetbrains.com/products/releases?code=PCP&type=release&latest=true -->
+	https://data.services.jetbrains.com/products/releases?code=PCP&type=release&latest=true -->
 	<releases>
 		<release version="2026.3.0.1" date="2026-11-19">
 			<url type="details">https://youtrack.jetbrains.com/articles/PY-A-233538653</url>
