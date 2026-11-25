@@ -12,7 +12,9 @@
     "--socket=ssh-auth",
     "--socket=gpg-agent",
     "--socket=fallback-x11",
-    "--socket=wayland"
+    "--socket=wayland",
+    "--talk-name=org.freedesktop.secrets",
+    "--talk-name=org.freedesktop.FileManager1"
   ],
   "modules": [
     "python3-modules.json",
