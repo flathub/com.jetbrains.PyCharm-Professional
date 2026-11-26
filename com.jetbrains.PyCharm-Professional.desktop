@@ -1,12 +1,12 @@
 [Desktop Entry]
-Name=PyCharm
-GenericName=Python IDE with agents
+Categories=Development;IDE
 Exec=pycharm-wrapper %F
-Terminal=false
+GenericName=Python IDE with agents
 Icon=com.jetbrains.PyCharm-Professional
-Type=Application
-Categories=Development;IDE;
 Keywords=development;pycharm;ide;python;
 MimeType=text/plain;inode/directory;
+Name=PyCharm
 StartupNotify=true
 StartupWMClass=com.jetbrains.PyCharm-Professional
+Terminal=false
+Type=Application
