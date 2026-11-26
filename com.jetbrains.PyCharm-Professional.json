@@ -1,0 +1,110 @@
+{
+  "id": "com.jetbrains.PyCharm-Professional",
+  "runtime": "org.freedesktop.Sdk",
+  "runtime-version": "26.08",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "pycharm-wrapper",
+  "finish-args": [
+    "--device=dri",
+    "--filesystem=home",
+    "--share=ipc",
+    "--share=network",
+    "--socket=ssh-auth",
+    "--socket=gpg-agent",
+    "--socket=fallback-x11",
+    "--socket=wayland",
+    "--talk-name=org.freedesktop.secrets",
+    "--talk-name=org.freedesktop.FileManager1"
+  ],
+  "modules": [
+    "python3-modules.json",
+    {
+      "name": "dbus",
+      "buildsystem": "meson",
+      "config-opts": [
+        "-Dtools=true",
+        "-Dmessage_bus=false",
+        "-Dsystemd=disabled",
+        "-Dx11_autolaunch=disabled"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://dbus.freedesktop.org/releases/dbus/dbus-1.16.4.tar.xz",
+          "sha256": "d08b05526c2cb7966a5fb79210d6112b1aca3d135f315c1b302e14b4b0297dac",
+          "x-checker-data": {
+            "type": "anitya",
+            "project-id": 5356,
+            "stable-only": true,
+            "url-template": "https://dbus.freedesktop.org/releases/dbus/dbus-$version.tar.xz"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pycharm",
+      "buildsystem": "simple",
+      "build-commands": [
+        "cp -a pycharm-*/* ${FLATPAK_DEST}",
+        "cat idea.properties >> ${FLATPAK_DEST}/bin/idea.properties",
+        "install -D -t ${FLATPAK_DEST}/bin/ pycharm-wrapper",
+        "install -Dm644 -t ${FLATPAK_DEST}/share/metainfo/ ${FLATPAK_ID}.metainfo.xml",
+        "install -Dm644 -t ${FLATPAK_DEST}/share/applications/ ${FLATPAK_ID}.desktop",
+        "install -Dm644 -t ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/ ${FLATPAK_ID}.svg"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "strip-components": 0,
+          "url": "https://download.jetbrains.com/python/pycharm-2026.3.0.1.tar.gz",
+          "sha256": "277b7f1197495fa9dd4c8e2337783c7417188a2a3810fd5b979b9fefcbd49084",
+          "only-arches": [
+            "x86_64"
+          ],
+          "x-checker-data": {
+            "type": "jetbrains",
+            "code": "PCP",
+            "is-main-source": true
+          }
+        },
+        {
+          "type": "archive",
+          "strip-components": 0,
+          "url": "https://download.jetbrains.com/python/pycharm-2026.3.0.1-aarch64.tar.gz",
+          "sha256": "6dd7084f0a3ccc21b711b2989f6471b0596565b05e4cb08d90a49870fa6c2091",
+          "only-arches": [
+            "aarch64"
+          ],
+          "x-checker-data": {
+            "type": "jetbrains",
+            "code": "PCP",
+            "is-main-source": true
+          }
+        },
+        {
+          "type": "file",
+          "path": "com.jetbrains.PyCharm-Professional.metainfo.xml"
+        },
+        {
+          "type": "file",
+          "path": "com.jetbrains.PyCharm-Professional.desktop"
+        },
+        {
+          "type": "file",
+          "path": "com.jetbrains.PyCharm-Professional.svg"
+        },
+        {
+          "type": "file",
+          "path": "idea.properties"
+        },
+        {
+          "type": "script",
+          "dest-filename": "pycharm-wrapper",
+          "commands": [
+            "/app/bin/pycharm $@"
+          ]
+        }
+      ]
+    }
+  ]
+}

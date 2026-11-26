@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+	<id>com.jetbrains.PyCharm-Professional</id>
+	<metadata_license>CC-BY-SA</metadata_license>
+	<project_license>LicenseRef-proprietary=https://www.jetbrains.com/legal/docs/toolbox/user/</project_license>
+	<name>PyCharm</name>
+	<launchable type="desktop-id">com.jetbrains.PyCharm-Professional.desktop</launchable>
+	<update_contact>idea@jetbrains.com</update_contact>
+	<summary>Python IDE with agents</summary>
+	<url type="bugtracker">https://youtrack.jetbrains.com/issues/PY/</url>
+	<url type="help">https://www.jetbrains.com/help/pycharm/</url>
+	<url type="homepage">https://www.jetbrains.com/pycharm/</url>
+	<url type="contact">https://www.jetbrains.com/company/contacts</url>
+	<developer id="com.jetbrains">
+		<name>JetBrains s.r.o.</name>
+	</developer>
+	<content_rating type="oars-1.1">
+		<content_attribute id="social-info">moderate</content_attribute>
+	</content_rating>
+	<branding>
+		<color scheme_preference="light" type="primary">#f0eb18</color>
+		<color scheme_preference="dark" type="primary">#00c4f4</color>
+	</branding>
+	<categories>
+		<category>Development</category>
+		<category>IDE</category>
+	</categories>
+	<keywords>
+		<keyword>python</keyword>
+		<keyword>development</keyword>
+		<keyword>ide</keyword>
+	</keywords>
+	<requires>
+		<memory>8192</memory>
+		<control>keyboard</control>
+		<control>pointing</control>
+		<display_length>720</display_length>
+	</requires>
+	<recommends>
+		<internet>always</internet>
+	</recommends>
+	<supports>
+		<internet>offline-only</internet>
+	</supports>
+	<description>
+		<p>PyCharm provides everything you need out of the box to code faster and smarter. Whether you’re an experienced developer or just starting your journey with the language, the JetBrains IDE for Python helps you get your work done.</p>
+		<ul>
+			<li>Essential Python support</li>
+			<li>Smart code editor with auto-completion</li>
+			<li>Fast navigation and search</li>
+			<li>Developer tools: debugger, testing frameworks, Git, terminal, and Docker</li>
+			<li>Basic support for Jupyter notebooks, including for running and debugging as well as output rendering, with code insight, quick-fixes, and code completion.</li>
+			<li>JetBrains AI tools: Free 30-day AI Pro trial (plugin)</li>
+			<li>Local AI-powered full line code completion (plugin)</li>
+		</ul>
+	</description>
+	<screenshots>
+		<screenshot type="default">
+			<image type="source">https://resources.jetbrains.com/help/img/idea/2024.1/py_new_ui_overview.png</image>
+			<caption>New tool window layout</caption>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://resources.jetbrains.com/help/img/idea/2024.1/py_new_ui_dark_theme.png</image>
+			<caption>Themes, icons, fonts</caption>
+		</screenshot>
+	</screenshots>
+	<!-- <screenshots>
+		<screenshot type="default">
+			<image>https://raw.githubusercontent.com/flathub/com.jetbrains.PyCharm-Professional/refs/heads/master/screenshots/hello-world.png</image>
+			<caption>Python support</caption>
+		</screenshot>
+		<screenshot>
+			<image>https://raw.githubusercontent.com/flathub/com.jetbrains.PyCharm-Professional/refs/heads/master/screenshots/create-new-project.png</image>
+			<caption>Create new Python project</caption>
+		</screenshot>
+		<screenshot>
+			<image>https://raw.githubusercontent.com/flathub/com.jetbrains.PyCharm-Professional/refs/heads/master/screenshots/debug.png</image>
+			<caption>Debugging Python</caption>
+		</screenshot>
+		<screenshot>
+			<image>https://raw.githubusercontent.com/flathub/com.jetbrains.PyCharm-Professional/refs/heads/master/screenshots/execution.png</image>
+			<caption>Execute Python project</caption>
+		</screenshot>
+		<screenshot>
+			<image>https://raw.githubusercontent.com/flathub/com.jetbrains.PyCharm-Professional/refs/heads/master/screenshots/packages.png</image>
+			<caption>Packages management</caption>
+		</screenshot>
+	</screenshots>
+	https://data.services.jetbrains.com/products/releases?code=PCP&type=release&latest=true -->
+	<releases>
+		<release version="2026.3.0.1" date="2026-11-19">
+			<url type="details">https://youtrack.jetbrains.com/articles/PY-A-233538653</url>
+			<description>
+				<p>This update includes fixes related to interpreter setup (Python 2.7 detection, Python 3.14/3.15 in the conda wizard, the default uv Python version), WSL paths to <code>.env</code> files in run configurations, the <em>All rows</em> option in the dataframe viewer, and a setting to turn off the <code>pyproject.toml</code>-based project model.</p>
+				<p>This major release introduces JetBrains Air – a new layer for agentic development that lets you run, track, and verify multi-agent workflows inside your IDE. Alongside Air, version 2026.3 delivers major updates across workspace tooling, Python 3.15 support, and core frameworks:</p>
+				<ul>
+					<li>JetBrains Air: Run ACP-compatible agents, track sessions across repositories, and review diffs in context – featuring free agentic coding with Junie Lite.</li>
+					<li>Workspace support: Dedicated consoles and terminals per subproject running against isolated dependencies, plus quick creation or conversion of workspace members initialized with <code>uv</code>, Hatch, or Poetry.</li>
+					<li>Python 3.15 lazy imports: Defer module loading to cut startup times in applications with heavy dependencies while retaining full code insight.</li>
+					<li>FastAPI support (Pro): Visualize endpoint dependencies with interactive graphs that mark yield/return calls and detect circular dependencies.</li>
+					<li>Redesigned Python interpreter widget: Access and recreate environments organized around the tools that manage them (<code>uv</code>, Poetry, Hatch, and conda).</li>
+					<li>Deeper Pydantic support: Field constraint checks in the editor, direct navigation from <code>@field_validator</code>, and code completion for model configuration options.</li>
+				</ul>
+				<p>Read about all the key changes on our what's new page.</p>
+			</description>
+		</release>
+		<release version="2026.3" date="2026-11-05">
+			<url type="details">https://youtrack.jetbrains.com/articles/PY-A-233538649</url>
+			<description>
+				<p>This major release introduces JetBrains Air – a new layer for agentic development that lets you run, track, and verify multi-agent workflows inside your IDE. Alongside Air, version 2026.3 delivers major updates across workspace tooling, Python 3.15 support, and core frameworks:</p>
+				<ul>
+					<li>JetBrains Air: Run ACP-compatible agents, track sessions across repositories, and review diffs in context – featuring free agentic coding with Junie Lite.</li>
+					<li>Workspace support: Dedicated consoles and terminals per subproject running against isolated dependencies, plus quick creation or conversion of workspace members initialized with <code>uv</code>, Hatch, or Poetry.</li>
+					<li>Python 3.15 lazy imports: Defer module loading to cut startup times in applications with heavy dependencies while retaining full code insight.</li>
+					<li>FastAPI support (Pro): Visualize endpoint dependencies with interactive graphs that mark yield/return calls and detect circular dependencies.</li>
+					<li>Redesigned Python interpreter widget: Access and recreate environments organized around the tools that manage them (<code>uv</code>, Poetry, Hatch, and conda).</li>
+					<li>Deeper Pydantic support: Field constraint checks in the editor, direct navigation from <code>@field_validator</code>, and code completion for model configuration options.</li>
+				</ul>
+				<p>Read about all the key changes on our what's new page.</p>
+			</description>
+		</release>
+		<release version="2026.2.4" date="2026-10-30">
+			<url type="details">https://youtrack.jetbrains.com/articles/PY-A-233538642/PyCharm-2026.2.4-262.11879.98-build-Release-Notes</url>
+			<description>
+				<p>This update fixes security issues.</p>
+				<p>Oracle's fixes for CVE-2026-91403 and CVE-2026-114820 were integrated into JBR.</p>
+			</description>
+		</release>
+		<release version="2026.2.3" date="2026-09-18">
+			<url type="details">https://youtrack.jetbrains.com/articles/PY-A-233538615</url>
+			<description>
+				<p>This update fixes several type-checking false positives along with issues in Ruff, Jupyter, Databricks, and interpreter setup:</p>
+				<ul>
+					<li>Get correct type inference from Numpy-style docstrings, including favoring type annotations over docstring types and handling <code>tuple[...]</code> with three or more arguments.</li>
+					<li>Avoid false positive warnings about missing <code>str</code> or <code>repr</code> implementations for <code>IPv4Address</code>/<code>IPv6Address</code>, string literals, and <code>str</code> subtypes.</li>
+					<li>Avoid a false positive <code>Expected type 'TypedDict | None', got 'dict' instead</code> error when passing a <code>dict</code> where a <code>TypedDict | None</code> is expected.</li>
+					<li>Get better handling of <code># type: ignore</code> comments.</li>
+					<li>Avoid duplicated type checker messages for Pydantic <code>Field</code>.</li>
+					<li>Avoid a crash loop when using Ruff version 0.16.5 or later.</li>
+					<li>Generate a new Python environment with <code>uv</code> even when <code>UV_PROJECT_ENVIRONMENT</code> is set.</li>
+					<li>See Jupyter variables again when using a remote Conda interpreter.</li>
+					<li>Let the Databricks plugin respect your proxy settings in PyCharm 2026.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="2026.2.2" date="2026-09-07">
+			<url type="details">https://youtrack.jetbrains.com/articles/PY-A-233538610</url>
+			<description>
+				<ul>
+					<li>Fixed a freeze during dictionary type comparison</li>
+					<li>PyCharm now shows relevant control flow elements using sticky-lines</li>
+					<li>Proper type resolutions for <code>__slots__</code> in enums</li>
+					<li>Inlay hints for enum<code>auto()</code></li>
+					<li>Generic bounds are displayed in parameter info</li>
+					<li>Unpacking a list no longer produces<code>Any</code></li>
+					<li>Completion for <code>TypedDict</code> class parameters like<code>extra_items</code></li>
+				</ul>
+			</description>
+		</release>
+	</releases>
+</component>
